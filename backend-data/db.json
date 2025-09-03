@@ -1,0 +1,5608 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter và Hòn Đá Phù Thủy",
+      "author_id": 1,
+      "category_ids": [
+        1,
+        4,
+        6
+      ],
+      "published_date": "1997-06-26",
+      "price": 25.99,
+      "stock": 150,
+      "likes": 245,
+      "cover_image": "https://i.pinimg.com/236x/19/f8/42/19f8422787afce5d3c65dbbc17d2e569.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Chúa tể của những chiếc nhẫn: Hiệp hội bảo vệ nhẫn",
+      "author_id": 2,
+      "category_ids": [
+        1,
+        4,
+        8
+      ],
+      "published_date": "1954-07-29",
+      "price": 32.5,
+      "stock": 100,
+      "likes": 189,
+      "cover_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 3,
+      "title": "Dune",
+      "author_id": 3,
+      "category_ids": [
+        2,
+        4,
+        3
+      ],
+      "published_date": "1965-08-01",
+      "price": 28.75,
+      "stock": 80,
+      "likes": 156,
+      "cover_image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 4,
+      "title": "Anh chàng Hobbit",
+      "author_id": 2,
+      "category_ids": [
+        1,
+        4,
+        6
+      ],
+      "published_date": "1937-09-21",
+      "price": 24.99,
+      "stock": 120,
+      "likes": 178,
+      "cover_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 5,
+      "title": "1984",
+      "author_id": 4,
+      "category_ids": [
+        2,
+        4,
+        8
+      ],
+      "published_date": "1949-06-08",
+      "price": 18.5,
+      "stock": 95,
+      "likes": 203,
+      "cover_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 6,
+      "title": "Giết con chim nhại",
+      "author_id": 5,
+      "category_ids": [
+        4,
+        8,
+        6
+      ],
+      "published_date": "1960-07-11",
+      "price": 16.99,
+      "stock": 110,
+      "likes": 167,
+      "cover_image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 7,
+      "title": "Gatsby vĩ đại",
+      "author_id": 6,
+      "category_ids": [
+        4,
+        5,
+        8
+      ],
+      "published_date": "1925-04-10",
+      "price": 15.75,
+      "stock": 85,
+      "likes": 134,
+      "cover_image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 8,
+      "title": "Kiêu hãnh và định kiến",
+      "author_id": 7,
+      "category_ids": [
+        4,
+        5,
+        8
+      ],
+      "published_date": "1813-01-28",
+      "price": 12.99,
+      "stock": 75,
+      "likes": 198,
+      "cover_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 9,
+      "title": "Bắt trẻ đồng xanh",
+      "author_id": 8,
+      "category_ids": [
+        4,
+        6,
+        8
+      ],
+      "published_date": "1951-07-16",
+      "price": 14.25,
+      "stock": 90,
+      "likes": 145,
+      "cover_image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 10,
+      "title": "Chúa ruồi",
+      "author_id": 9,
+      "category_ids": [
+        4,
+        2,
+        8
+      ],
+      "published_date": "1954-09-17",
+      "price": 13.5,
+      "stock": 70,
+      "likes": 123,
+      "cover_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 11,
+      "title": "Trại súc vật",
+      "author_id": 4,
+      "category_ids": [
+        4,
+        2,
+        8
+      ],
+      "published_date": "1945-08-17",
+      "price": 11.99,
+      "stock": 65,
+      "likes": 187,
+      "cover_image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 12,
+      "title": "Nhà giả kim",
+      "author_id": 10,
+      "category_ids": [
+        1,
+        4,
+        9
+      ],
+      "published_date": "1988-01-01",
+      "price": 19.99,
+      "stock": 200,
+      "likes": 234,
+      "cover_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 13,
+      "title": "Mật mã Da Vinci",
+      "author_id": 11,
+      "category_ids": [
+        3,
+        6,
+        4
+      ],
+      "published_date": "2003-03-18",
+      "price": 22.5,
+      "stock": 180,
+      "likes": 298,
+      "cover_image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 14,
+      "title": "Đấu trường sinh tử",
+      "author_id": 12,
+      "category_ids": [
+        2,
+        4,
+        3
+      ],
+      "published_date": "2008-09-14",
+      "price": 21.99,
+      "stock": 160,
+      "likes": 267,
+      "cover_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 15,
+      "title": "Lỗi tại vì sao",
+      "author_id": 13,
+      "category_ids": [
+        4,
+        5,
+        6
+      ],
+      "published_date": "2012-01-10",
+      "price": 18.75,
+      "stock": 140,
+      "likes": 189,
+      "cover_image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 16,
+      "title": "Cô gái mất tích",
+      "author_id": 14,
+      "category_ids": [
+        3,
+        6,
+        4
+      ],
+      "published_date": "2012-06-05",
+      "price": 24.99,
+      "stock": 130,
+      "likes": 156,
+      "cover_image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 17,
+      "title": "Cô gái có hình xăm rồng",
+      "author_id": 15,
+      "category_ids": [
+        3,
+        6,
+        4
+      ],
+      "published_date": "2005-08-01",
+      "price": 23.5,
+      "stock": 115,
+      "likes": 178,
+      "cover_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=400&h=600&fit=crop"
+    },
+    {
+      "id": 18,
+      "title": "Người thả diều",
+      "author_id": 16,
+      "category_ids": [
+        4,
+        8,
+        6
+      ],
+      "published_date": "2003-05-29",
+      "price": 17.99,
+      "stock": 100,
+      "likes": 134,
+      "cover_image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=400&h=600&fit=crop"
+    },
+    {
+      "title": "Cuộc đời của Pi",
+      "author_id": 17,
+      "category_ids": [
+        4,
+        2,
+        6
+      ],
+      "published_date": "2001-09-11",
+      "price": 20.25,
+      "stock": 95,
+      "likes": 167,
+      "cover_image": "http://localhost:3001/uploads/file-1754988154469-58758210.jpg",
+      "id": 19
+    },
+    {
+      "title": "Kẻ trộm sách",
+      "author_id": 18,
+      "category_ids": [
+        4,
+        8,
+        6
+      ],
+      "published_date": "2005-03-14",
+      "price": 19.5,
+      "stock": 110,
+      "likes": 145,
+      "cover_image": "http://localhost:3001/uploads/file-1754989815339-728856732.jpg",
+      "id": 20
+    },
+    {
+      "id": 21,
+      "title": "Người giúp việc",
+      "author_id": 19,
+      "category_ids": [
+        4,
+        8,
+        6
+      ],
+      "published_date": "2009-02-10",
+      "price": 21.75,
+      "stock": 125,
+      "likes": 123
+    },
+    {
+      "id": 22,
+      "title": "Nước cho voi",
+      "author_id": 20,
+      "category_ids": [
+        4,
+        5,
+        8
+      ],
+      "published_date": "2006-05-26",
+      "price": 20.99,
+      "stock": 90,
+      "likes": 98
+    },
+    {
+      "id": 23,
+      "title": "Vợ của người du hành thời gian",
+      "author_id": 21,
+      "category_ids": [
+        2,
+        4,
+        5
+      ],
+      "published_date": "2003-01-01",
+      "price": 22.25,
+      "stock": 85,
+      "likes": 156
+    },
+    {
+      "id": 24,
+      "title": "Những xương khô đẹp đẽ",
+      "author_id": 22,
+      "category_ids": [
+        4,
+        6,
+        3
+      ],
+      "published_date": "2002-07-03",
+      "price": 18.5,
+      "stock": 75,
+      "likes": 87
+    },
+    {
+      "id": 25,
+      "title": "Hồi ức của một Geisha",
+      "author_id": 23,
+      "category_ids": [
+        4,
+        7,
+        8
+      ],
+      "published_date": "1997-09-27",
+      "price": 19.99,
+      "stock": 80,
+      "likes": 134
+    },
+    {
+      "id": 26,
+      "title": "Sự cố kỳ lạ của con chó trong đêm",
+      "author_id": 24,
+      "category_ids": [
+        4,
+        6,
+        9
+      ],
+      "published_date": "2003-05-01",
+      "price": 16.75,
+      "stock": 70,
+      "likes": 112
+    },
+    {
+      "id": 27,
+      "title": "Cuộc sống bí mật của loài ong",
+      "author_id": 25,
+      "category_ids": [
+        4,
+        5,
+        8
+      ],
+      "published_date": "2002-01-28",
+      "price": 17.5,
+      "stock": 85,
+      "likes": 98
+    },
+    {
+      "id": 28,
+      "title": "Con gái của người giữ ký ức",
+      "author_id": 26,
+      "category_ids": [
+        4,
+        6,
+        5
+      ],
+      "published_date": "2005-03-15",
+      "price": 18.25,
+      "stock": 90,
+      "likes": 76
+    },
+    {
+      "id": 29,
+      "title": "Câu chuyện thứ mười ba",
+      "author_id": 27,
+      "category_ids": [
+        3,
+        6,
+        4
+      ],
+      "published_date": "2006-09-12",
+      "price": 21.99,
+      "stock": 65,
+      "likes": 89
+    },
+    {
+      "id": 30,
+      "title": "Hội văn học và bánh khoai tây Guernsey",
+      "author_id": 28,
+      "category_ids": [
+        4,
+        5,
+        8
+      ],
+      "published_date": "2008-07-10",
+      "price": 19.75,
+      "stock": 95,
+      "likes": 67
+    },
+    {
+      "id": 31,
+      "title": "Nghệ thuật đua xe trong mưa",
+      "author_id": 29,
+      "category_ids": [
+        4,
+        9,
+        5
+      ],
+      "published_date": "2008-05-20",
+      "price": 16.99,
+      "stock": 80,
+      "likes": 45
+    },
+    {
+      "id": 32,
+      "title": "Câu chuyện về Edgar Sawtelle",
+      "author_id": 30,
+      "category_ids": [
+        4,
+        6,
+        9
+      ],
+      "published_date": "2008-06-10",
+      "price": 24.5,
+      "stock": 60,
+      "likes": 78
+    },
+    {
+      "id": 33,
+      "title": "Cuộc đời kỳ diệu ngắn ngủi của Oscar Wao",
+      "author_id": 31,
+      "category_ids": [
+        4,
+        8,
+        5
+      ],
+      "published_date": "2007-09-06",
+      "price": 20.25,
+      "stock": 70,
+      "likes": 92
+    },
+    {
+      "id": 34,
+      "title": "Con đường",
+      "author_id": 32,
+      "category_ids": [
+        2,
+        4,
+        3
+      ],
+      "published_date": "2006-09-26",
+      "price": 18.99,
+      "stock": 85,
+      "likes": 134
+    },
+    {
+      "id": 35,
+      "title": "Không phải xứ sở cho những kẻ già",
+      "author_id": 32,
+      "category_ids": [
+        3,
+        4,
+        6
+      ],
+      "published_date": "2005-07-19",
+      "price": 19.5,
+      "stock": 75,
+      "likes": 156
+    },
+    {
+      "id": 36,
+      "title": "Những sửa chữa",
+      "author_id": 33,
+      "category_ids": [
+        4,
+        8,
+        5
+      ],
+      "published_date": "2001-09-04",
+      "price": 22.75,
+      "stock": 55,
+      "likes": 89
+    },
+    {
+      "id": 37,
+      "title": "Middlesex",
+      "author_id": 34,
+      "category_ids": [
+        4,
+        7,
+        8
+      ],
+      "published_date": "2002-09-04",
+      "price": 23.99,
+      "stock": 65,
+      "likes": 112
+    },
+    {
+      "id": 38,
+      "title": "Những cuộc phiêu lưu kỳ diệu của Kavalier & Clay",
+      "author_id": 35,
+      "category_ids": [
+        4,
+        7,
+        8
+      ],
+      "published_date": "2000-09-19",
+      "price": 21.5,
+      "stock": 50,
+      "likes": 78
+    },
+    {
+      "id": 39,
+      "title": "Người phiên dịch những nỗi đau",
+      "author_id": 36,
+      "category_ids": [
+        4,
+        5,
+        8
+      ],
+      "published_date": "1999-06-01",
+      "price": 17.25,
+      "stock": 80,
+      "likes": 67
+    },
+    {
+      "id": 40,
+      "title": "Những giờ khắc",
+      "author_id": 37,
+      "category_ids": [
+        4,
+        7,
+        8
+      ],
+      "published_date": "1998-11-03",
+      "price": 18.75,
+      "stock": 70,
+      "likes": 89
+    },
+    {
+      "id": 41,
+      "title": "Núi lạnh",
+      "author_id": 38,
+      "category_ids": [
+        4,
+        8,
+        5
+      ],
+      "published_date": "1997-07-15",
+      "price": 20.99,
+      "stock": 60,
+      "likes": 134
+    },
+    {
+      "id": 42,
+      "title": "Bệnh nhân người Anh",
+      "author_id": 39,
+      "category_ids": [
+        4,
+        8,
+        5
+      ],
+      "published_date": "1992-09-01",
+      "price": 19.5,
+      "stock": 75,
+      "likes": 156
+    },
+    {
+      "id": 43,
+      "title": "Sở hữu",
+      "author_id": 40,
+      "category_ids": [
+        4,
+        6,
+        8
+      ],
+      "published_date": "1990-10-01",
+      "price": 21.25,
+      "stock": 55,
+      "likes": 78
+    },
+    {
+      "id": 44,
+      "title": "Tàn dư của ngày",
+      "author_id": 41,
+      "category_ids": [
+        4,
+        8,
+        5
+      ],
+      "published_date": "1989-05-22",
+      "price": 18.99,
+      "stock": 80,
+      "likes": 123
+    },
+    {
+      "id": 45,
+      "title": "Câu chuyện người hầu",
+      "author_id": 42,
+      "category_ids": [
+        2,
+        4,
+        8
+      ],
+      "published_date": "1985-04-26",
+      "price": 17.75,
+      "stock": 100,
+      "likes": 167
+    },
+    {
+      "id": 46,
+      "title": "Người yêu dấu",
+      "author_id": 43,
+      "category_ids": [
+        4,
+        8,
+        6
+      ],
+      "published_date": "1987-09-02",
+      "price": 16.5,
+      "stock": 85,
+      "likes": 198
+    },
+    {
+      "id": 47,
+      "title": "Màu tím",
+      "author_id": 44,
+      "category_ids": [
+        4,
+        8,
+        5
+      ],
+      "published_date": "1982-06-01",
+      "price": 15.99,
+      "stock": 90,
+      "likes": 145
+    },
+    {
+      "id": 48,
+      "title": "Ngôi nhà của những linh hồn",
+      "author_id": 45,
+      "category_ids": [
+        4,
+        1,
+        8
+      ],
+      "published_date": "1982-01-01",
+      "price": 20.25,
+      "stock": 70,
+      "likes": 178
+    },
+    {
+      "id": 49,
+      "title": "Trăm năm cô đơn",
+      "author_id": 46,
+      "category_ids": [
+        4,
+        1,
+        8
+      ],
+      "published_date": "1967-06-05",
+      "price": 19.75,
+      "stock": 95,
+      "likes": 234
+    },
+    {
+      "id": 50,
+      "title": "Thầy và Margarita",
+      "author_id": 47,
+      "category_ids": [
+        1,
+        4,
+        6
+      ],
+      "published_date": "1967-01-01",
+      "price": 18.5,
+      "stock": 60,
+      "likes": 167
+    },
+    {
+      "id": 51,
+      "title": "Catch-22",
+      "author_id": 48,
+      "category_ids": [
+        4,
+        8,
+        6
+      ],
+      "published_date": "1961-11-10",
+      "price": 17.99,
+      "stock": 85,
+      "likes": 145
+    },
+    {
+      "id": 52,
+      "title": "Giết con chim nhại",
+      "author_id": 5,
+      "category_ids": [
+        4,
+        8,
+        6
+      ],
+      "published_date": "1960-07-11",
+      "price": 16.99,
+      "stock": 110,
+      "likes": 167
+    },
+    {
+      "id": 53,
+      "title": "Bắt trẻ đồng xanh",
+      "author_id": 8,
+      "category_ids": [
+        4,
+        6,
+        8
+      ],
+      "published_date": "1951-07-16",
+      "price": 14.25,
+      "stock": 90,
+      "likes": 145
+    },
+    {
+      "category_ids": [
+        8,
+        5,
+        4
+      ],
+      "title": "test2",
+      "cover_image": null,
+      "author_id": 47,
+      "published_date": "2025-08-12",
+      "price": 123456,
+      "stock": 45,
+      "likes": 0,
+      "id": 54
+    }
+  ],
+  "authors": [
+    {
+      "name": "J.K. Rowling",
+      "birth_year": 1965,
+      "nationality": "Anh",
+      "biography": "Joanne Rowling là nhà văn người Anh, tác giả của series Harry Potter nổi tiếng thế giới. Bà đã viết 7 cuốn sách trong series này và trở thành một trong những tác giả bán chạy nhất mọi thời đại.",
+      "profile_image": "http://localhost:3001/uploads/file-1754990080179-483781934.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "J.R.R. Tolkien",
+      "birth_year": 1892,
+      "nationality": "Anh",
+      "biography": "John Ronald Reuel Tolkien là nhà văn, nhà ngôn ngữ học người Anh. Ông được biết đến với các tác phẩm fantasy như The Hobbit và The Lord of the Rings, được coi là cha đẻ của thể loại fantasy hiện đại.",
+      "profile_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "id": 3,
+      "name": "Frank Herbert",
+      "birth_year": 1920,
+      "nationality": "Mỹ",
+      "biography": "Franklin Patrick Herbert Jr. là nhà văn khoa học viễn tưởng người Mỹ, nổi tiếng với series Dune. Ông được coi là một trong những tác giả khoa học viễn tưởng vĩ đại nhất.",
+      "profile_image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "id": 4,
+      "name": "George Orwell",
+      "birth_year": 1903,
+      "nationality": "Anh",
+      "biography": "Eric Arthur Blair, bút danh George Orwell, là nhà văn, nhà báo người Anh. Ông nổi tiếng với các tác phẩm 1984 và Animal Farm, phê phán chủ nghĩa toàn trị.",
+      "profile_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "id": 5,
+      "name": "Harper Lee",
+      "birth_year": 1926,
+      "nationality": "Mỹ",
+      "biography": "Nelle Harper Lee là nhà văn người Mỹ, tác giả của tiểu thuyết To Kill a Mockingbird. Cuốn sách này đã giành giải Pulitzer và trở thành một tác phẩm kinh điển của văn học Mỹ.",
+      "profile_image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "id": 6,
+      "name": "F. Scott Fitzgerald",
+      "birth_year": 1896,
+      "nationality": "Mỹ",
+      "biography": "Francis Scott Key Fitzgerald là nhà văn người Mỹ, đại diện của Thế hệ Mất mát. Ông nổi tiếng với The Great Gatsby, một tác phẩm phản ánh xã hội Mỹ những năm 1920.",
+      "profile_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "name": "Jane Austen",
+      "birth_year": 1775,
+      "nationality": "Anh",
+      "biography": "Jane Austen là nhà văn người Anh, được coi là một trong những tác giả vĩ đại nhất của văn học Anh. Các tác phẩm của bà thường xoay quanh cuộc sống của tầng lớp trung lưu Anh.",
+      "profile_image": "http://localhost:3001/uploads/file-1754990129666-32324780.png",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "J.D. Salinger",
+      "birth_year": 1919,
+      "nationality": "Mỹ",
+      "biography": "Jerome David Salinger là nhà văn người Mỹ, nổi tiếng với The Catcher in the Rye. Ông được coi là một trong những tác giả có ảnh hưởng nhất thế kỷ 20.",
+      "profile_image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "id": 9,
+      "name": "William Golding",
+      "birth_year": 1911,
+      "nationality": "Anh",
+      "biography": "William Gerald Golding là nhà văn người Anh, đoạt giải Nobel Văn học năm 1983. Ông nổi tiếng với Lord of the Flies, một tác phẩm khám phá bản chất con người.",
+      "profile_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "id": 10,
+      "name": "Paulo Coelho",
+      "birth_year": 1947,
+      "nationality": "Brazil",
+      "biography": "Paulo Coelho là nhà văn người Brazil, tác giả của The Alchemist. Ông được coi là một trong những tác giả bán chạy nhất thế giới với hơn 350 triệu bản sách được bán.",
+      "profile_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+    },
+    {
+      "id": 11,
+      "name": "Dan Brown",
+      "birth_year": 1964,
+      "nationality": "Mỹ",
+      "biography": "Daniel Gerhard Brown là nhà văn người Mỹ, nổi tiếng với series Robert Langdon. Các tác phẩm của ông thường kết hợp giữa thriller và các yếu tố lịch sử, tôn giáo."
+    },
+    {
+      "id": 12,
+      "name": "Suzanne Collins",
+      "birth_year": 1962,
+      "nationality": "Mỹ",
+      "biography": "Suzanne Collins là nhà văn người Mỹ, tác giả của series The Hunger Games. Bà cũng là nhà văn truyền hình, từng viết cho nhiều chương trình thiếu nhi."
+    },
+    {
+      "id": 13,
+      "name": "John Green",
+      "birth_year": 1977,
+      "nationality": "Mỹ",
+      "biography": "John Michael Green là nhà văn người Mỹ, tác giả của The Fault in Our Stars. Ông cũng là một vlogger và nhà sản xuất video trên YouTube."
+    },
+    {
+      "id": 14,
+      "name": "Gillian Flynn",
+      "birth_year": 1971,
+      "nationality": "Mỹ",
+      "biography": "Gillian Schieber Flynn là nhà văn người Mỹ, tác giả của Gone Girl. Bà cũng là nhà báo và nhà biên kịch, từng làm việc cho Entertainment Weekly."
+    },
+    {
+      "id": 15,
+      "name": "Stieg Larsson",
+      "birth_year": 1954,
+      "nationality": "Thụy Điển",
+      "biography": "Karl Stig-Erland Larsson là nhà văn, nhà báo người Thụy Điển. Ông nổi tiếng với Millennium series, bao gồm The Girl with the Dragon Tattoo."
+    },
+    {
+      "id": 16,
+      "name": "Khaled Hosseini",
+      "birth_year": 1965,
+      "nationality": "Afghanistan",
+      "biography": "Khaled Hosseini là nhà văn người Afghanistan-Mỹ, tác giả của The Kite Runner. Ông cũng là bác sĩ và đại sứ thiện chí của UNHCR."
+    },
+    {
+      "id": 17,
+      "name": "Yann Martel",
+      "birth_year": 1963,
+      "nationality": "Canada",
+      "biography": "Yann Martel là nhà văn người Canada, tác giả của Life of Pi. Cuốn sách này đã giành giải Man Booker Prize và được chuyển thể thành phim."
+    },
+    {
+      "id": 18,
+      "name": "Markus Zusak",
+      "birth_year": 1975,
+      "nationality": "Úc",
+      "biography": "Markus Zusak là nhà văn người Úc, tác giả của The Book Thief. Ông được biết đến với phong cách viết độc đáo và các tác phẩm dành cho thanh niên."
+    },
+    {
+      "id": 19,
+      "name": "Kathryn Stockett",
+      "birth_year": 1969,
+      "nationality": "Mỹ",
+      "biography": "Kathryn Stockett là nhà văn người Mỹ, tác giả của The Help. Cuốn sách này đã được chuyển thể thành phim và nhận được nhiều giải thưởng."
+    },
+    {
+      "id": 20,
+      "name": "Sara Gruen",
+      "birth_year": 1969,
+      "nationality": "Canada",
+      "biography": "Sara Gruen là nhà văn người Canada, tác giả của Water for Elephants. Bà được biết đến với các tác phẩm lịch sử và các câu chuyện về động vật."
+    },
+    {
+      "id": 21,
+      "name": "Audrey Niffenegger",
+      "birth_year": 1963,
+      "nationality": "Mỹ",
+      "biography": "Audrey Niffenegger là nhà văn, nghệ sĩ người Mỹ. Bà nổi tiếng với The Time Traveler's Wife, một tác phẩm kết hợp giữa khoa học viễn tưởng và lãng mạn."
+    },
+    {
+      "id": 22,
+      "name": "Alice Sebold",
+      "birth_year": 1963,
+      "nationality": "Mỹ",
+      "biography": "Alice Sebold là nhà văn người Mỹ, tác giả của The Lovely Bones. Bà được biết đến với các tác phẩm khám phá chủ đề mất mát và hồi phục."
+    },
+    {
+      "id": 23,
+      "name": "Arthur Golden",
+      "birth_year": 1956,
+      "nationality": "Mỹ",
+      "biography": "Arthur Golden là nhà văn người Mỹ, tác giả của Memoirs of a Geisha. Cuốn sách này đã được chuyển thể thành phim và nhận được nhiều giải thưởng."
+    },
+    {
+      "id": 24,
+      "name": "Mark Haddon",
+      "birth_year": 1962,
+      "nationality": "Anh",
+      "biography": "Mark Haddon là nhà văn người Anh, tác giả của The Curious Incident of the Dog in the Night-Time. Ông cũng là nhà thơ và họa sĩ minh họa."
+    },
+    {
+      "id": 25,
+      "name": "Sue Monk Kidd",
+      "birth_year": 1948,
+      "nationality": "Mỹ",
+      "biography": "Sue Monk Kidd là nhà văn người Mỹ, tác giả của The Secret Life of Bees. Bà được biết đến với các tác phẩm khám phá chủ đề nữ quyền và tâm linh."
+    },
+    {
+      "id": 26,
+      "name": "Kim Edwards",
+      "birth_year": 1958,
+      "nationality": "Mỹ",
+      "biography": "Kim Edwards là nhà văn người Mỹ, tác giả của The Memory Keeper's Daughter. Bà cũng là giáo viên văn học và từng đoạt nhiều giải thưởng văn học."
+    },
+    {
+      "id": 27,
+      "name": "Diane Setterfield",
+      "birth_year": 1964,
+      "nationality": "Anh",
+      "biography": "Diane Setterfield là nhà văn người Anh, tác giả của The Thirteenth Tale. Bà được biết đến với các tác phẩm gothic và mystery."
+    },
+    {
+      "id": 28,
+      "name": "Mary Ann Shaffer",
+      "birth_year": 1934,
+      "nationality": "Mỹ",
+      "biography": "Mary Ann Shaffer là nhà văn người Mỹ, tác giả của The Guernsey Literary and Potato Peel Pie Society. Bà từng làm việc trong ngành xuất bản."
+    },
+    {
+      "id": 29,
+      "name": "Garth Stein",
+      "birth_year": 1964,
+      "nationality": "Mỹ",
+      "biography": "Garth Stein là nhà văn người Mỹ, tác giả của The Art of Racing in the Rain. Ông cũng là nhà sản xuất phim và nhà viết kịch."
+    },
+    {
+      "id": 30,
+      "name": "David Wroblewski",
+      "birth_year": 1959,
+      "nationality": "Mỹ",
+      "biography": "David Wroblewski là nhà văn người Mỹ, tác giả của The Story of Edgar Sawtelle. Ông được biết đến với phong cách viết độc đáo và các câu chuyện về động vật."
+    },
+    {
+      "id": 31,
+      "name": "Junot Díaz",
+      "birth_year": 1968,
+      "nationality": "Dominican Republic",
+      "biography": "Junot Díaz là nhà văn người Dominican-Mỹ, đoạt giải Pulitzer cho The Brief Wondrous Life of Oscar Wao. Ông cũng là giáo sư văn học tại MIT."
+    },
+    {
+      "id": 32,
+      "name": "Cormac McCarthy",
+      "birth_year": 1933,
+      "nationality": "Mỹ",
+      "biography": "Cormac McCarthy là nhà văn người Mỹ, được coi là một trong những tác giả vĩ đại nhất của văn học Mỹ hiện đại. Ông nổi tiếng với No Country for Old Men và The Road."
+    },
+    {
+      "id": 33,
+      "name": "Jonathan Franzen",
+      "birth_year": 1959,
+      "nationality": "Mỹ",
+      "biography": "Jonathan Franzen là nhà văn người Mỹ, tác giả của The Corrections và Freedom. Ông được coi là một trong những tiểu thuyết gia quan trọng nhất của thế hệ mình."
+    },
+    {
+      "id": 34,
+      "name": "Jeffrey Eugenides",
+      "birth_year": 1960,
+      "nationality": "Mỹ",
+      "biography": "Jeffrey Eugenides là nhà văn người Mỹ, đoạt giải Pulitzer cho Middlesex. Ông được biết đến với các tác phẩm khám phá chủ đề giới tính và bản sắc."
+    },
+    {
+      "id": 35,
+      "name": "Michael Chabon",
+      "birth_year": 1963,
+      "nationality": "Mỹ",
+      "biography": "Michael Chabon là nhà văn người Mỹ, đoạt giải Pulitzer cho The Amazing Adventures of Kavalier & Clay. Ông cũng là nhà biên kịch và nhà sản xuất."
+    },
+    {
+      "id": 36,
+      "name": "Jhumpa Lahiri",
+      "birth_year": 1967,
+      "nationality": "Mỹ",
+      "biography": "Jhumpa Lahiri là nhà văn người Mỹ gốc Ấn, đoạt giải Pulitzer cho Interpreter of Maladies. Bà được biết đến với các tác phẩm về trải nghiệm của người nhập cư."
+    },
+    {
+      "id": 37,
+      "name": "Michael Cunningham",
+      "birth_year": 1952,
+      "nationality": "Mỹ",
+      "biography": "Michael Cunningham là nhà văn người Mỹ, đoạt giải Pulitzer cho The Hours. Ông được biết đến với các tác phẩm khám phá chủ đề LGBT và mối quan hệ con người."
+    },
+    {
+      "id": 38,
+      "name": "Charles Frazier",
+      "birth_year": 1950,
+      "nationality": "Mỹ",
+      "biography": "Charles Frazier là nhà văn người Mỹ, đoạt giải National Book Award cho Cold Mountain. Ông được biết đến với các tác phẩm lịch sử và các câu chuyện về nội chiến Mỹ."
+    },
+    {
+      "id": 39,
+      "name": "Michael Ondaatje",
+      "birth_year": 1943,
+      "nationality": "Canada",
+      "biography": "Michael Ondaatje là nhà văn người Canada gốc Sri Lanka, đoạt giải Booker cho The English Patient. Ông cũng là nhà thơ và nhà biên kịch."
+    },
+    {
+      "id": 40,
+      "name": "A.S. Byatt",
+      "birth_year": 1936,
+      "nationality": "Anh",
+      "biography": "Antonia Susan Byatt là nhà văn người Anh, đoạt giải Booker cho Possession. Bà được biết đến với các tác phẩm học thuật và các câu chuyện về tình yêu."
+    },
+    {
+      "id": 41,
+      "name": "Kazuo Ishiguro",
+      "birth_year": 1954,
+      "nationality": "Anh",
+      "biography": "Kazuo Ishiguro là nhà văn người Anh gốc Nhật, đoạt giải Nobel Văn học năm 2017. Ông nổi tiếng với The Remains of the Day và Never Let Me Go."
+    },
+    {
+      "id": 42,
+      "name": "Margaret Atwood",
+      "birth_year": 1939,
+      "nationality": "Canada",
+      "biography": "Margaret Atwood là nhà văn người Canada, tác giả của The Handmaid's Tale. Bà được coi là một trong những nhà văn quan trọng nhất của thời đại chúng ta."
+    },
+    {
+      "id": 43,
+      "name": "Toni Morrison",
+      "birth_year": 1931,
+      "nationality": "Mỹ",
+      "biography": "Toni Morrison là nhà văn người Mỹ, đoạt giải Nobel Văn học năm 1993. Bà được biết đến với các tác phẩm khám phá trải nghiệm của người Mỹ gốc Phi."
+    },
+    {
+      "id": 44,
+      "name": "Alice Walker",
+      "birth_year": 1944,
+      "nationality": "Mỹ",
+      "biography": "Alice Walker là nhà văn người Mỹ, đoạt giải Pulitzer cho The Color Purple. Bà cũng là nhà thơ và nhà hoạt động xã hội."
+    },
+    {
+      "id": 45,
+      "name": "Isabel Allende",
+      "birth_year": 1942,
+      "nationality": "Chile",
+      "biography": "Isabel Allende là nhà văn người Chile, tác giả của The House of the Spirits. Bà được coi là một trong những nhà văn quan trọng nhất của văn học Mỹ Latinh."
+    },
+    {
+      "id": 46,
+      "name": "Gabriel García Márquez",
+      "birth_year": 1927,
+      "nationality": "Colombia",
+      "biography": "Gabriel García Márquez là nhà văn người Colombia, đoạt giải Nobel Văn học năm 1982. Ông được coi là cha đẻ của chủ nghĩa hiện thực huyền ảo."
+    },
+    {
+      "id": 47,
+      "name": "Mikhail Bulgakov",
+      "birth_year": 1891,
+      "nationality": "Nga",
+      "biography": "Mikhail Bulgakov là nhà văn người Nga, tác giả của The Master and Margarita. Ông được coi là một trong những nhà văn vĩ đại nhất của văn học Nga thế kỷ 20."
+    },
+    {
+      "id": 48,
+      "name": "Joseph Heller",
+      "birth_year": 1923,
+      "nationality": "Mỹ",
+      "biography": "Joseph Heller là nhà văn người Mỹ, tác giả của Catch-22. Ông được biết đến với phong cách viết hài hước và châm biếm về chiến tranh."
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Kỳ ảo",
+      "description": "Thể loại văn học kỳ ảo bao gồm các câu chuyện có yếu tố siêu nhiên, phép thuật, và các thế giới tưởng tượng. Thường có các nhân vật như phù thủy, rồng, và các sinh vật thần thoại.",
+      "popular_books": [
+        "Harry Potter",
+        "The Lord of the Rings",
+        "The Hobbit"
+      ],
+      "target_audience": "Mọi lứa tuổi"
+    },
+    {
+      "id": 2,
+      "name": "Khoa học viễn tưởng",
+      "description": "Thể loại văn học dựa trên các khái niệm khoa học và công nghệ tương lai. Thường khám phá các vấn đề xã hội thông qua lăng kính của công nghệ tiên tiến.",
+      "popular_books": [
+        "Dune",
+        "1984",
+        "The Hunger Games"
+      ],
+      "target_audience": "Thanh thiếu niên trở lên"
+    },
+    {
+      "id": 3,
+      "name": "Trinh thám",
+      "description": "Thể loại văn học tập trung vào việc giải quyết các vụ án và bí ẩn. Thường có nhân vật chính là thám tử hoặc người điều tra.",
+      "popular_books": [
+        "The Girl with the Dragon Tattoo",
+        "Gone Girl",
+        "The Da Vinci Code"
+      ],
+      "target_audience": "Người lớn"
+    },
+    {
+      "id": 4,
+      "name": "Tiểu thuyết",
+      "description": "Thể loại văn học hư cấu dài, thường khám phá các chủ đề phức tạp về con người và xã hội. Bao gồm nhiều thể loại con khác nhau.",
+      "popular_books": [
+        "To Kill a Mockingbird",
+        "The Great Gatsby",
+        "Pride and Prejudice"
+      ],
+      "target_audience": "Mọi lứa tuổi"
+    },
+    {
+      "id": 5,
+      "name": "Lãng mạn",
+      "description": "Thể loại văn học tập trung vào tình yêu và các mối quan hệ lãng mạn. Thường có happy ending và các yếu tố cảm xúc mạnh mẽ.",
+      "popular_books": [
+        "Pride and Prejudice",
+        "The Notebook",
+        "Outlander"
+      ],
+      "target_audience": "Chủ yếu nữ giới"
+    },
+    {
+      "id": 6,
+      "name": "Bí ẩn",
+      "description": "Thể loại văn học tập trung vào việc giải quyết các bí ẩn và câu đố. Thường có yếu tố suspense và twist ending.",
+      "popular_books": [
+        "The Thirteenth Tale",
+        "The Memory Keeper's Daughter",
+        "The Lovely Bones"
+      ],
+      "target_audience": "Người lớn"
+    },
+    {
+      "id": 7,
+      "name": "Tiểu sử",
+      "description": "Thể loại văn học phi hư cấu kể về cuộc đời của một người thật. Thường dựa trên nghiên cứu và tài liệu lịch sử.",
+      "popular_books": [
+        "Steve Jobs",
+        "Einstein",
+        "The Diary of Anne Frank"
+      ],
+      "target_audience": "Mọi lứa tuổi"
+    },
+    {
+      "id": 8,
+      "name": "Lịch sử",
+      "description": "Thể loại văn học lấy bối cảnh từ các thời kỳ lịch sử. Có thể là hư cấu hoặc dựa trên sự kiện lịch sử thật.",
+      "popular_books": [
+        "The Book Thief",
+        "All the Light We Cannot See",
+        "The Nightingale"
+      ],
+      "target_audience": "Mọi lứa tuổi"
+    },
+    {
+      "id": 9,
+      "name": "Tự lực",
+      "description": "Thể loại văn học tập trung vào sự phát triển cá nhân và cải thiện bản thân. Thường cung cấp lời khuyên và hướng dẫn thực tế.",
+      "popular_books": [
+        "The Alchemist",
+        "The Power of Now",
+        "Atomic Habits"
+      ],
+      "target_audience": "Người lớn"
+    },
+    {
+      "id": 10,
+      "name": "Kinh doanh",
+      "description": "Thể loại văn học về kinh doanh, quản lý và phát triển sự nghiệp. Bao gồm sách về leadership, marketing, và chiến lược kinh doanh.",
+      "popular_books": [
+        "The Lean Startup",
+        "Good to Great",
+        "The 7 Habits of Highly Effective People"
+      ],
+      "target_audience": "Chuyên gia kinh doanh"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "email": "nguyenvanan@gmail.com",
+      "phone": "0901234567",
+      "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "birth_date": "1990-05-15",
+      "gender": "Nam",
+      "registration_date": "2023-01-15",
+      "total_orders": 5,
+      "total_spent": 125.5
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "email": "tranthibinh@yahoo.com",
+      "phone": "0912345678",
+      "address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
+      "birth_date": "1985-08-22",
+      "gender": "Nữ",
+      "registration_date": "2023-02-20",
+      "total_orders": 3,
+      "total_spent": 89.75
+    },
+    {
+      "id": 3,
+      "name": "Lê Hoàng Cường",
+      "email": "lehoangcuong@gmail.com",
+      "phone": "0923456789",
+      "address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
+      "birth_date": "1992-12-10",
+      "gender": "Nam",
+      "registration_date": "2023-03-10",
+      "total_orders": 8,
+      "total_spent": 245.3
+    },
+    {
+      "id": 4,
+      "name": "Phạm Thị Dung",
+      "email": "phamthidung@gmail.com",
+      "phone": "0934567890",
+      "address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "birth_date": "1988-03-25",
+      "gender": "Nữ",
+      "registration_date": "2023-01-05",
+      "total_orders": 12,
+      "total_spent": 456.8
+    },
+    {
+      "id": 5,
+      "name": "Vũ Minh Đức",
+      "email": "vuminhduc@yahoo.com",
+      "phone": "0945678901",
+      "address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
+      "birth_date": "1995-07-18",
+      "gender": "Nam",
+      "registration_date": "2023-04-12",
+      "total_orders": 6,
+      "total_spent": 178.9
+    },
+    {
+      "id": 6,
+      "name": "Hoàng Thị Em",
+      "email": "hoangthiem@gmail.com",
+      "phone": "0956789012",
+      "address": "987 Đường Đồng Khởi, Quận 1, TP.HCM",
+      "birth_date": "1993-11-30",
+      "gender": "Nữ",
+      "registration_date": "2023-02-28",
+      "total_orders": 4,
+      "total_spent": 112.45
+    },
+    {
+      "id": 7,
+      "name": "Đặng Văn Phúc",
+      "email": "dangvanphuc@gmail.com",
+      "phone": "0967890123",
+      "address": "147 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "birth_date": "1987-09-14",
+      "gender": "Nam",
+      "registration_date": "2023-01-20",
+      "total_orders": 15,
+      "total_spent": 567.2
+    },
+    {
+      "id": 8,
+      "name": "Bùi Thị Giang",
+      "email": "buithigiang@yahoo.com",
+      "phone": "0978901234",
+      "address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "birth_date": "1991-04-08",
+      "gender": "Nữ",
+      "registration_date": "2023-03-15",
+      "total_orders": 7,
+      "total_spent": 234.6
+    },
+    {
+      "id": 9,
+      "name": "Ngô Văn Hùng",
+      "email": "ngovanhung@gmail.com",
+      "phone": "0989012345",
+      "address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "birth_date": "1989-06-20",
+      "gender": "Nam",
+      "registration_date": "2023-02-10",
+      "total_orders": 9,
+      "total_spent": 345.75
+    },
+    {
+      "id": 10,
+      "name": "Lý Thị Hương",
+      "email": "lythihuong@gmail.com",
+      "phone": "0990123456",
+      "address": "741 Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM",
+      "birth_date": "1994-01-12",
+      "gender": "Nữ",
+      "registration_date": "2023-04-05",
+      "total_orders": 2,
+      "total_spent": 67.8
+    },
+    {
+      "id": 11,
+      "name": "Trịnh Văn Khoa",
+      "email": "trinhvankhoa@yahoo.com",
+      "phone": "0901123456",
+      "address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "birth_date": "1986-10-05",
+      "gender": "Nam",
+      "registration_date": "2023-01-25",
+      "total_orders": 11,
+      "total_spent": 423.9
+    },
+    {
+      "id": 12,
+      "name": "Đỗ Thị Lan",
+      "email": "dothilan@gmail.com",
+      "phone": "0902123456",
+      "address": "963 Đường 3/2, Quận 10, TP.HCM",
+      "birth_date": "1990-12-18",
+      "gender": "Nữ",
+      "registration_date": "2023-03-20",
+      "total_orders": 6,
+      "total_spent": 189.45
+    },
+    {
+      "id": 13,
+      "name": "Hồ Văn Minh",
+      "email": "hovanminh@gmail.com",
+      "phone": "0903123456",
+      "address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "birth_date": "1993-08-30",
+      "gender": "Nam",
+      "registration_date": "2023-02-15",
+      "total_orders": 4,
+      "total_spent": 145.2
+    },
+    {
+      "id": 14,
+      "name": "Võ Thị Nga",
+      "email": "vothinga@yahoo.com",
+      "phone": "0904123456",
+      "address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "birth_date": "1988-05-22",
+      "gender": "Nữ",
+      "registration_date": "2023-01-30",
+      "total_orders": 8,
+      "total_spent": 278.9
+    },
+    {
+      "id": 15,
+      "name": "Lưu Văn Phương",
+      "email": "luuvanphuong@gmail.com",
+      "phone": "0905123456",
+      "address": "486 Đường Lý Thường Kiệt, Quận 10, TP.HCM",
+      "birth_date": "1991-07-11",
+      "gender": "Nam",
+      "registration_date": "2023-04-08",
+      "total_orders": 3,
+      "total_spent": 98.6
+    },
+    {
+      "id": 16,
+      "name": "Châu Thị Quỳnh",
+      "email": "chauthiquynh@gmail.com",
+      "phone": "0906123456",
+      "address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "birth_date": "1995-03-28",
+      "gender": "Nữ",
+      "registration_date": "2023-03-25",
+      "total_orders": 5,
+      "total_spent": 167.3
+    },
+    {
+      "id": 17,
+      "name": "Tạ Văn Sơn",
+      "email": "tavanson@yahoo.com",
+      "phone": "0907123456",
+      "address": "951 Đường Trần Phú, Quận 5, TP.HCM",
+      "birth_date": "1987-11-16",
+      "gender": "Nam",
+      "registration_date": "2023-02-05",
+      "total_orders": 10,
+      "total_spent": 312.8
+    },
+    {
+      "id": 18,
+      "name": "Mai Thị Tuyết",
+      "email": "maithituyet@gmail.com",
+      "phone": "0908123456",
+      "address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "birth_date": "1992-09-03",
+      "gender": "Nữ",
+      "registration_date": "2023-01-12",
+      "total_orders": 7,
+      "total_spent": 245.7
+    },
+    {
+      "id": 19,
+      "name": "Đinh Văn Tuấn",
+      "email": "dinhvantuan@gmail.com",
+      "phone": "0909123456",
+      "address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
+      "birth_date": "1989-02-14",
+      "gender": "Nam",
+      "registration_date": "2023-03-08",
+      "total_orders": 6,
+      "total_spent": 198.4
+    },
+    {
+      "id": 20,
+      "name": "Lâm Thị Vân",
+      "email": "lamthivan@yahoo.com",
+      "phone": "0900123456",
+      "address": "462 Đường Lê Hồng Phong, Quận 6, TP.HCM",
+      "birth_date": "1994-06-25",
+      "gender": "Nữ",
+      "registration_date": "2023-04-18",
+      "total_orders": 4,
+      "total_spent": 134.9
+    },
+    {
+      "total_orders": 10,
+      "total_spent": 10000000,
+      "gender": "Nam",
+      "name": "Huy",
+      "email": "huyquangnguyen38@gmail.com",
+      "phone": "0366145363",
+      "address": "Hải Phòng",
+      "birth_date": "2004-07-12",
+      "registration_date": "2025-08-13",
+      "id": 21
+    }
+  ],
+  "purchase_orders": [
+    {
+      "id": 1,
+      "customer_id": 1,
+      "order_date": "2024-01-15",
+      "status": "Đã giao",
+      "total_amount": 45.99,
+      "shipping_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Giao hàng vào buổi chiều",
+      "order_items": [
+        {
+          "book_id": 1,
+          "quantity": 1,
+          "unit_price": 25.99,
+          "subtotal": 25.99
+        },
+        {
+          "book_id": 5,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer_id": 3,
+      "order_date": "2024-01-18",
+      "status": "Đã giao",
+      "total_amount": 78.5,
+      "shipping_address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 5,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 2,
+          "quantity": 1,
+          "unit_price": 32.5,
+          "subtotal": 32.5
+        },
+        {
+          "book_id": 12,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        },
+        {
+          "book_id": 6,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customer_id": 4,
+      "order_date": "2024-01-20",
+      "status": "Đang xử lý",
+      "total_amount": 125.75,
+      "shipping_address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Giao hàng trong ngày",
+      "order_items": [
+        {
+          "book_id": 3,
+          "quantity": 2,
+          "unit_price": 28.75,
+          "subtotal": 57.5
+        },
+        {
+          "book_id": 13,
+          "quantity": 1,
+          "unit_price": 22.5,
+          "subtotal": 22.5
+        },
+        {
+          "book_id": 14,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customer_id": 7,
+      "order_date": "2024-01-22",
+      "status": "Đã giao",
+      "total_amount": 89.25,
+      "shipping_address": "147 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 7,
+          "quantity": 1,
+          "unit_price": 15.75,
+          "subtotal": 15.75
+        },
+        {
+          "book_id": 8,
+          "quantity": 1,
+          "unit_price": 12.99,
+          "subtotal": 12.99
+        },
+        {
+          "book_id": 9,
+          "quantity": 1,
+          "unit_price": 14.25,
+          "subtotal": 14.25
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customer_id": 2,
+      "order_date": "2024-01-25",
+      "status": "Đã giao",
+      "total_amount": 34.99,
+      "shipping_address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 0,
+      "notes": "Giao hàng vào sáng sớm",
+      "order_items": [
+        {
+          "book_id": 10,
+          "quantity": 1,
+          "unit_price": 13.5,
+          "subtotal": 13.5
+        },
+        {
+          "book_id": 11,
+          "quantity": 1,
+          "unit_price": 11.99,
+          "subtotal": 11.99
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customer_id": 8,
+      "order_date": "2024-02-05",
+      "status": "Đã giao",
+      "total_amount": 156.75,
+      "shipping_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 1,
+          "quantity": 2,
+          "unit_price": 25.99,
+          "subtotal": 51.98
+        },
+        {
+          "book_id": 2,
+          "quantity": 1,
+          "unit_price": 32.5,
+          "subtotal": 32.5
+        },
+        {
+          "book_id": 15,
+          "quantity": 1,
+          "unit_price": 18.75,
+          "subtotal": 18.75
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "customer_id": 9,
+      "order_date": "2024-02-12",
+      "status": "Đang xử lý",
+      "total_amount": 89.99,
+      "shipping_address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Giao hàng vào buổi tối",
+      "order_items": [
+        {
+          "book_id": 16,
+          "quantity": 1,
+          "unit_price": 24.99,
+          "subtotal": 24.99
+        },
+        {
+          "book_id": 17,
+          "quantity": 1,
+          "unit_price": 23.5,
+          "subtotal": 23.5
+        },
+        {
+          "book_id": 18,
+          "quantity": 1,
+          "unit_price": 17.99,
+          "subtotal": 17.99
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "customer_id": 11,
+      "order_date": "2024-02-18",
+      "status": "Đã giao",
+      "total_amount": 203.45,
+      "shipping_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Đơn hàng lớn",
+      "order_items": [
+        {
+          "book_id": 3,
+          "quantity": 3,
+          "unit_price": 28.75,
+          "subtotal": 86.25
+        },
+        {
+          "book_id": 12,
+          "quantity": 2,
+          "unit_price": 19.99,
+          "subtotal": 39.98
+        },
+        {
+          "book_id": 19,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "customer_id": 13,
+      "order_date": "2024-03-03",
+      "status": "Đã giao",
+      "total_amount": 67.25,
+      "shipping_address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 20,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        },
+        {
+          "book_id": 21,
+          "quantity": 1,
+          "unit_price": 21.75,
+          "subtotal": 21.75
+        },
+        {
+          "book_id": 22,
+          "quantity": 1,
+          "unit_price": 20.99,
+          "subtotal": 20.99
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "customer_id": 14,
+      "order_date": "2024-03-10",
+      "status": "Đang xử lý",
+      "total_amount": 134.75,
+      "shipping_address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Khách hàng thân thiết",
+      "order_items": [
+        {
+          "book_id": 23,
+          "quantity": 1,
+          "unit_price": 22.25,
+          "subtotal": 22.25
+        },
+        {
+          "book_id": 24,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        },
+        {
+          "book_id": 25,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "customer_id": 16,
+      "order_date": "2024-03-15",
+      "status": "Đã giao",
+      "total_amount": 45.50,
+      "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 26,
+          "quantity": 1,
+          "unit_price": 16.75,
+          "subtotal": 16.75
+        },
+        {
+          "book_id": 27,
+          "quantity": 1,
+          "unit_price": 17.5,
+          "subtotal": 17.5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "customer_id": 17,
+      "order_date": "2024-03-22",
+      "status": "Đã giao",
+      "total_amount": 78.25,
+      "shipping_address": "951 Đường Trần Phú, Quận 5, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Giao hàng vào buổi sáng",
+      "order_items": [
+        {
+          "book_id": 28,
+          "quantity": 1,
+          "unit_price": 18.25,
+          "subtotal": 18.25
+        },
+        {
+          "book_id": 29,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        },
+        {
+          "book_id": 30,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "customer_id": 18,
+      "order_date": "2024-04-05",
+      "status": "Đang xử lý",
+      "total_amount": 112.50,
+      "shipping_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 31,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        },
+        {
+          "book_id": 32,
+          "quantity": 1,
+          "unit_price": 24.5,
+          "subtotal": 24.5
+        },
+        {
+          "book_id": 33,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "customer_id": 19,
+      "order_date": "2024-04-12",
+      "status": "Đã giao",
+      "total_amount": 156.75,
+      "shipping_address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 34,
+          "quantity": 1,
+          "unit_price": 18.99,
+          "subtotal": 18.99
+        },
+        {
+          "book_id": 35,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        },
+        {
+          "book_id": 36,
+          "quantity": 1,
+          "unit_price": 22.75,
+          "subtotal": 22.75
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "customer_id": 20,
+      "order_date": "2024-04-18",
+      "status": "Đã giao",
+      "total_amount": 89.99,
+      "shipping_address": "462 Đường Lê Hồng Phong, Quận 6, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 37,
+          "quantity": 1,
+          "unit_price": 23.99,
+          "subtotal": 23.99
+        },
+        {
+          "book_id": 38,
+          "quantity": 1,
+          "unit_price": 21.5,
+          "subtotal": 21.5
+        },
+        {
+          "book_id": 39,
+          "quantity": 1,
+          "unit_price": 17.25,
+          "subtotal": 17.25
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "customer_id": 21,
+      "order_date": "2024-05-02",
+      "status": "Đang xử lý",
+      "total_amount": 234.50,
+      "shipping_address": "Hải Phòng",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 25,
+      "notes": "Đơn hàng từ khách hàng mới",
+      "order_items": [
+        {
+          "book_id": 40,
+          "quantity": 1,
+          "unit_price": 18.75,
+          "subtotal": 18.75
+        },
+        {
+          "book_id": 41,
+          "quantity": 1,
+          "unit_price": 20.99,
+          "subtotal": 20.99
+        },
+        {
+          "book_id": 42,
+          "quantity": 1,
+          "unit_price": 21.25,
+          "subtotal": 21.25
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "customer_id": 1,
+      "order_date": "2024-05-08",
+      "status": "Đã giao",
+      "total_amount": 67.25,
+      "shipping_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Khách hàng quay lại",
+      "order_items": [
+        {
+          "book_id": 43,
+          "quantity": 1,
+          "unit_price": 18.99,
+          "subtotal": 18.99
+        },
+        {
+          "book_id": 44,
+          "quantity": 1,
+          "unit_price": 17.75,
+          "subtotal": 17.75
+        },
+        {
+          "book_id": 45,
+          "quantity": 1,
+          "unit_price": 16.5,
+          "subtotal": 16.5
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "customer_id": 3,
+      "order_date": "2024-05-15",
+      "status": "Đã giao",
+      "total_amount": 145.75,
+      "shipping_address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 46,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        },
+        {
+          "book_id": 47,
+          "quantity": 1,
+          "unit_price": 15.99,
+          "subtotal": 15.99
+        },
+        {
+          "book_id": 48,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "customer_id": 4,
+      "order_date": "2024-06-01",
+      "status": "Đang xử lý",
+      "total_amount": 178.50,
+      "shipping_address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Đơn hàng tháng 6",
+      "order_items": [
+        {
+          "book_id": 49,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        },
+        {
+          "book_id": 50,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        },
+        {
+          "book_id": 51,
+          "quantity": 1,
+          "unit_price": 17.99,
+          "subtotal": 17.99
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "customer_id": 7,
+      "order_date": "2024-06-10",
+      "status": "Đã giao",
+      "total_amount": 89.25,
+      "shipping_address": "147 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 52,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        },
+        {
+          "book_id": 53,
+          "quantity": 1,
+          "unit_price": 14.25,
+          "subtotal": 14.25
+        },
+        {
+          "book_id": 54,
+          "quantity": 1,
+          "unit_price": 123456,
+          "subtotal": 123456
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "customer_id": 2,
+      "order_date": "2025-01-15",
+      "status": "Đã giao",
+      "total_amount": 67.50,
+      "shipping_address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 5,
+      "notes": "Đơn hàng đầu năm 2025",
+      "order_items": [
+        {
+          "book_id": 1,
+          "quantity": 1,
+          "unit_price": 25.99,
+          "subtotal": 25.99
+        },
+        {
+          "book_id": 5,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "customer_id": 4,
+      "order_date": "2025-01-18",
+      "status": "Đang xử lý",
+      "total_amount": 145.75,
+      "shipping_address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 2,
+          "quantity": 1,
+          "unit_price": 32.5,
+          "subtotal": 32.5
+        },
+        {
+          "book_id": 12,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        },
+        {
+          "book_id": 15,
+          "quantity": 1,
+          "unit_price": 18.75,
+          "subtotal": 18.75
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "customer_id": 8,
+      "order_date": "2025-01-20",
+      "status": "Đã giao",
+      "total_amount": 89.99,
+      "shipping_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 16,
+          "quantity": 1,
+          "unit_price": 24.99,
+          "subtotal": 24.99
+        },
+        {
+          "book_id": 17,
+          "quantity": 1,
+          "unit_price": 23.5,
+          "subtotal": 23.5
+        },
+        {
+          "book_id": 18,
+          "quantity": 1,
+          "unit_price": 17.99,
+          "subtotal": 17.99
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "customer_id": 11,
+      "order_date": "2025-01-22",
+      "status": "Đã giao",
+      "total_amount": 203.45,
+      "shipping_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Đơn hàng lớn",
+      "order_items": [
+        {
+          "book_id": 3,
+          "quantity": 3,
+          "unit_price": 28.75,
+          "subtotal": 86.25
+        },
+        {
+          "book_id": 13,
+          "quantity": 1,
+          "unit_price": 22.5,
+          "subtotal": 22.5
+        },
+        {
+          "book_id": 14,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "customer_id": 13,
+      "order_date": "2025-01-25",
+      "status": "Đang xử lý",
+      "total_amount": 67.25,
+      "shipping_address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 20,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        },
+        {
+          "book_id": 21,
+          "quantity": 1,
+          "unit_price": 21.75,
+          "subtotal": 21.75
+        },
+        {
+          "book_id": 22,
+          "quantity": 1,
+          "unit_price": 20.99,
+          "subtotal": 20.99
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "customer_id": 14,
+      "order_date": "2025-01-28",
+      "status": "Đã giao",
+      "total_amount": 134.75,
+      "shipping_address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Khách hàng thân thiết",
+      "order_items": [
+        {
+          "book_id": 23,
+          "quantity": 1,
+          "unit_price": 22.25,
+          "subtotal": 22.25
+        },
+        {
+          "book_id": 24,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        },
+        {
+          "book_id": 25,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "customer_id": 16,
+      "order_date": "2025-01-30",
+      "status": "Đã giao",
+      "total_amount": 45.50,
+      "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 26,
+          "quantity": 1,
+          "unit_price": 16.75,
+          "subtotal": 16.75
+        },
+        {
+          "book_id": 27,
+          "quantity": 1,
+          "unit_price": 17.5,
+          "subtotal": 17.5
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "customer_id": 17,
+      "order_date": "2025-02-02",
+      "status": "Đang xử lý",
+      "total_amount": 78.25,
+      "shipping_address": "951 Đường Trần Phú, Quận 5, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Giao hàng vào buổi sáng",
+      "order_items": [
+        {
+          "book_id": 28,
+          "quantity": 1,
+          "unit_price": 18.25,
+          "subtotal": 18.25
+        },
+        {
+          "book_id": 29,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        },
+        {
+          "book_id": 30,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "customer_id": 18,
+      "order_date": "2025-02-05",
+      "status": "Đã giao",
+      "total_amount": 112.50,
+      "shipping_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 31,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        },
+        {
+          "book_id": 32,
+          "quantity": 1,
+          "unit_price": 24.5,
+          "subtotal": 24.5
+        },
+        {
+          "book_id": 33,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "customer_id": 19,
+      "order_date": "2025-02-08",
+      "status": "Đã giao",
+      "total_amount": 156.75,
+      "shipping_address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 34,
+          "quantity": 1,
+          "unit_price": 18.99,
+          "subtotal": 18.99
+        },
+        {
+          "book_id": 35,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        },
+        {
+          "book_id": 36,
+          "quantity": 1,
+          "unit_price": 22.75,
+          "subtotal": 22.75
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "customer_id": 1,
+      "order_date": "2025-01-03",
+      "status": "Đã giao",
+      "total_amount": 78.50,
+      "shipping_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Đơn hàng đầu tháng",
+      "order_items": [
+        {
+          "book_id": 7,
+          "quantity": 1,
+          "unit_price": 15.75,
+          "subtotal": 15.75
+        },
+        {
+          "book_id": 8,
+          "quantity": 1,
+          "unit_price": 12.99,
+          "subtotal": 12.99
+        },
+        {
+          "book_id": 9,
+          "quantity": 1,
+          "unit_price": 14.25,
+          "subtotal": 14.25
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "customer_id": 3,
+      "order_date": "2025-01-05",
+      "status": "Đang xử lý",
+      "total_amount": 134.25,
+      "shipping_address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Khách hàng thân thiết",
+      "order_items": [
+        {
+          "book_id": 10,
+          "quantity": 1,
+          "unit_price": 13.5,
+          "subtotal": 13.5
+        },
+        {
+          "book_id": 11,
+          "quantity": 1,
+          "unit_price": 11.99,
+          "subtotal": 11.99
+        },
+        {
+          "book_id": 12,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "customer_id": 5,
+      "order_date": "2025-01-07",
+      "status": "Đã giao",
+      "total_amount": 45.99,
+      "shipping_address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 5,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 13,
+          "quantity": 1,
+          "unit_price": 22.5,
+          "subtotal": 22.5
+        },
+        {
+          "book_id": 14,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "customer_id": 6,
+      "order_date": "2025-01-10",
+      "status": "Đã giao",
+      "total_amount": 167.50,
+      "shipping_address": "987 Đường Đồng Khởi, Quận 1, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Đơn hàng lớn",
+      "order_items": [
+        {
+          "book_id": 15,
+          "quantity": 1,
+          "unit_price": 18.75,
+          "subtotal": 18.75
+        },
+        {
+          "book_id": 16,
+          "quantity": 1,
+          "unit_price": 24.99,
+          "subtotal": 24.99
+        },
+        {
+          "book_id": 17,
+          "quantity": 1,
+          "unit_price": 23.5,
+          "subtotal": 23.5
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "customer_id": 9,
+      "order_date": "2025-01-12",
+      "status": "Đang xử lý",
+      "total_amount": 89.75,
+      "shipping_address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Giao hàng vào buổi chiều",
+      "order_items": [
+        {
+          "book_id": 18,
+          "quantity": 1,
+          "unit_price": 17.99,
+          "subtotal": 17.99
+        },
+        {
+          "book_id": 19,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        },
+        {
+          "book_id": 20,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "customer_id": 10,
+      "order_date": "2025-01-14",
+      "status": "Đã giao",
+      "total_amount": 112.25,
+      "shipping_address": "741 Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 21,
+          "quantity": 1,
+          "unit_price": 21.75,
+          "subtotal": 21.75
+        },
+        {
+          "book_id": 22,
+          "quantity": 1,
+          "unit_price": 20.99,
+          "subtotal": 20.99
+        },
+        {
+          "book_id": 23,
+          "quantity": 1,
+          "unit_price": 22.25,
+          "subtotal": 22.25
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "customer_id": 12,
+      "order_date": "2025-01-16",
+      "status": "Đã giao",
+      "total_amount": 67.50,
+      "shipping_address": "963 Đường 3/2, Quận 10, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 24,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        },
+        {
+          "book_id": 25,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "customer_id": 15,
+      "order_date": "2025-01-19",
+      "status": "Đang xử lý",
+      "total_amount": 145.99,
+      "shipping_address": "486 Đường Lý Thường Kiệt, Quận 10, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Đơn hàng từ khách hàng mới",
+      "order_items": [
+        {
+          "book_id": 26,
+          "quantity": 1,
+          "unit_price": 16.75,
+          "subtotal": 16.75
+        },
+        {
+          "book_id": 27,
+          "quantity": 1,
+          "unit_price": 17.5,
+          "subtotal": 17.5
+        },
+        {
+          "book_id": 28,
+          "quantity": 1,
+          "unit_price": 18.25,
+          "subtotal": 18.25
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "customer_id": 16,
+      "order_date": "2025-01-21",
+      "status": "Đã giao",
+      "total_amount": 98.75,
+      "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 5,
+      "notes": "Khách hàng quay lại",
+      "order_items": [
+        {
+          "book_id": 29,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        },
+        {
+          "book_id": 30,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        },
+        {
+          "book_id": 31,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "customer_id": 17,
+      "order_date": "2025-01-24",
+      "status": "Đã giao",
+      "total_amount": 178.25,
+      "shipping_address": "951 Đường Trần Phú, Quận 5, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Đơn hàng cuối tháng",
+      "order_items": [
+        {
+          "book_id": 32,
+          "quantity": 1,
+          "unit_price": 24.5,
+          "subtotal": 24.5
+        },
+        {
+          "book_id": 33,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        },
+        {
+          "book_id": 34,
+          "quantity": 1,
+          "unit_price": 18.99,
+          "subtotal": 18.99
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "customer_id": 2,
+      "order_date": "2025-02-03",
+      "status": "Đã giao",
+      "total_amount": 89.50,
+      "shipping_address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 5,
+      "notes": "Đơn hàng đầu tháng 2",
+      "order_items": [
+        {
+          "book_id": 35,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        },
+        {
+          "book_id": 36,
+          "quantity": 1,
+          "unit_price": 22.75,
+          "subtotal": 22.75
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "customer_id": 4,
+      "order_date": "2025-02-07",
+      "status": "Đang xử lý",
+      "total_amount": 156.75,
+      "shipping_address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 37,
+          "quantity": 1,
+          "unit_price": 23.99,
+          "subtotal": 23.99
+        },
+        {
+          "book_id": 38,
+          "quantity": 1,
+          "unit_price": 21.5,
+          "subtotal": 21.5
+        },
+        {
+          "book_id": 39,
+          "quantity": 1,
+          "unit_price": 17.25,
+          "subtotal": 17.25
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "customer_id": 7,
+      "order_date": "2025-02-12",
+      "status": "Đã giao",
+      "total_amount": 134.25,
+      "shipping_address": "147 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 40,
+          "quantity": 1,
+          "unit_price": 18.75,
+          "subtotal": 18.75
+        },
+        {
+          "book_id": 41,
+          "quantity": 1,
+          "unit_price": 20.99,
+          "subtotal": 20.99
+        },
+        {
+          "book_id": 42,
+          "quantity": 1,
+          "unit_price": 21.25,
+          "subtotal": 21.25
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "customer_id": 8,
+      "order_date": "2025-02-18",
+      "status": "Đã giao",
+      "total_amount": 98.50,
+      "shipping_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Khách hàng thân thiết",
+      "order_items": [
+        {
+          "book_id": 43,
+          "quantity": 1,
+          "unit_price": 18.99,
+          "subtotal": 18.99
+        },
+        {
+          "book_id": 44,
+          "quantity": 1,
+          "unit_price": 17.75,
+          "subtotal": 17.75
+        },
+        {
+          "book_id": 45,
+          "quantity": 1,
+          "unit_price": 16.5,
+          "subtotal": 16.5
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "customer_id": 11,
+      "order_date": "2025-02-25",
+      "status": "Đang xử lý",
+      "total_amount": 167.99,
+      "shipping_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Đơn hàng lớn",
+      "order_items": [
+        {
+          "book_id": 46,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        },
+        {
+          "book_id": 47,
+          "quantity": 1,
+          "unit_price": 15.99,
+          "subtotal": 15.99
+        },
+        {
+          "book_id": 48,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "customer_id": 13,
+      "order_date": "2025-03-05",
+      "status": "Đã giao",
+      "total_amount": 78.25,
+      "shipping_address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Đơn hàng đầu tháng 3",
+      "order_items": [
+        {
+          "book_id": 49,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        },
+        {
+          "book_id": 50,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        },
+        {
+          "book_id": 51,
+          "quantity": 1,
+          "unit_price": 17.99,
+          "subtotal": 17.99
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "customer_id": 14,
+      "order_date": "2025-03-10",
+      "status": "Đã giao",
+      "total_amount": 145.75,
+      "shipping_address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 52,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        },
+        {
+          "book_id": 53,
+          "quantity": 1,
+          "unit_price": 14.25,
+          "subtotal": 14.25
+        },
+        {
+          "book_id": 54,
+          "quantity": 1,
+          "unit_price": 123456,
+          "subtotal": 123456
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "customer_id": 16,
+      "order_date": "2025-03-15",
+      "status": "Đang xử lý",
+      "total_amount": 112.50,
+      "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 1,
+          "quantity": 1,
+          "unit_price": 25.99,
+          "subtotal": 25.99
+        },
+        {
+          "book_id": 2,
+          "quantity": 1,
+          "unit_price": 32.5,
+          "subtotal": 32.5
+        },
+        {
+          "book_id": 3,
+          "quantity": 1,
+          "unit_price": 28.75,
+          "subtotal": 28.75
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "customer_id": 18,
+      "order_date": "2025-03-22",
+      "status": "Đã giao",
+      "total_amount": 89.99,
+      "shipping_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Giao hàng vào buổi sáng",
+      "order_items": [
+        {
+          "book_id": 4,
+          "quantity": 1,
+          "unit_price": 24.99,
+          "subtotal": 24.99
+        },
+        {
+          "book_id": 5,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        },
+        {
+          "book_id": 6,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "customer_id": 19,
+      "order_date": "2025-03-28",
+      "status": "Đã giao",
+      "total_amount": 156.25,
+      "shipping_address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 7,
+          "quantity": 1,
+          "unit_price": 15.75,
+          "subtotal": 15.75
+        },
+        {
+          "book_id": 8,
+          "quantity": 1,
+          "unit_price": 12.99,
+          "subtotal": 12.99
+        },
+        {
+          "book_id": 9,
+          "quantity": 1,
+          "unit_price": 14.25,
+          "subtotal": 14.25
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "customer_id": 20,
+      "order_date": "2025-04-02",
+      "status": "Đã giao",
+      "total_amount": 67.75,
+      "shipping_address": "462 Đường Lê Hồng Phong, Quận 6, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Đơn hàng đầu tháng 4",
+      "order_items": [
+        {
+          "book_id": 10,
+          "quantity": 1,
+          "unit_price": 13.5,
+          "subtotal": 13.5
+        },
+        {
+          "book_id": 11,
+          "quantity": 1,
+          "unit_price": 11.99,
+          "subtotal": 11.99
+        },
+        {
+          "book_id": 12,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "customer_id": 21,
+      "order_date": "2025-04-08",
+      "status": "Đang xử lý",
+      "total_amount": 134.50,
+      "shipping_address": "Hải Phòng",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Đơn hàng từ khách hàng mới",
+      "order_items": [
+        {
+          "book_id": 13,
+          "quantity": 1,
+          "unit_price": 22.5,
+          "subtotal": 22.5
+        },
+        {
+          "book_id": 14,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        },
+        {
+          "book_id": 15,
+          "quantity": 1,
+          "unit_price": 18.75,
+          "subtotal": 18.75
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "customer_id": 1,
+      "order_date": "2025-04-12",
+      "status": "Đã giao",
+      "total_amount": 98.25,
+      "shipping_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Khách hàng quay lại",
+      "order_items": [
+        {
+          "book_id": 16,
+          "quantity": 1,
+          "unit_price": 24.99,
+          "subtotal": 24.99
+        },
+        {
+          "book_id": 17,
+          "quantity": 1,
+          "unit_price": 23.5,
+          "subtotal": 23.5
+        },
+        {
+          "book_id": 18,
+          "quantity": 1,
+          "unit_price": 17.99,
+          "subtotal": 17.99
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "customer_id": 3,
+      "order_date": "2025-04-18",
+      "status": "Đã giao",
+      "total_amount": 167.99,
+      "shipping_address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Đơn hàng lớn",
+      "order_items": [
+        {
+          "book_id": 19,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        },
+        {
+          "book_id": 20,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        },
+        {
+          "book_id": 21,
+          "quantity": 1,
+          "unit_price": 21.75,
+          "subtotal": 21.75
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "customer_id": 5,
+      "order_date": "2025-04-25",
+      "status": "Đang xử lý",
+      "total_amount": 78.50,
+      "shipping_address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 5,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 22,
+          "quantity": 1,
+          "unit_price": 20.99,
+          "subtotal": 20.99
+        },
+        {
+          "book_id": 23,
+          "quantity": 1,
+          "unit_price": 22.25,
+          "subtotal": 22.25
+        },
+        {
+          "book_id": 24,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "customer_id": 7,
+      "order_date": "2025-05-03",
+      "status": "Đã giao",
+      "total_amount": 145.25,
+      "shipping_address": "147 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Đơn hàng đầu tháng 5",
+      "order_items": [
+        {
+          "book_id": 25,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        },
+        {
+          "book_id": 26,
+          "quantity": 1,
+          "unit_price": 16.75,
+          "subtotal": 16.75
+        },
+        {
+          "book_id": 27,
+          "quantity": 1,
+          "unit_price": 17.5,
+          "subtotal": 17.5
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "customer_id": 9,
+      "order_date": "2025-05-08",
+      "status": "Đang xử lý",
+      "total_amount": 112.75,
+      "shipping_address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Giao hàng vào buổi tối",
+      "order_items": [
+        {
+          "book_id": 28,
+          "quantity": 1,
+          "unit_price": 18.25,
+          "subtotal": 18.25
+        },
+        {
+          "book_id": 29,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        },
+        {
+          "book_id": 30,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "customer_id": 11,
+      "order_date": "2025-05-15",
+      "status": "Đã giao",
+      "total_amount": 178.50,
+      "shipping_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 31,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        },
+        {
+          "book_id": 32,
+          "quantity": 1,
+          "unit_price": 24.5,
+          "subtotal": 24.5
+        },
+        {
+          "book_id": 33,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "customer_id": 13,
+      "order_date": "2025-05-22",
+      "status": "Đã giao",
+      "total_amount": 89.99,
+      "shipping_address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 34,
+          "quantity": 1,
+          "unit_price": 18.99,
+          "subtotal": 18.99
+        },
+        {
+          "book_id": 35,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        },
+        {
+          "book_id": 36,
+          "quantity": 1,
+          "unit_price": 22.75,
+          "subtotal": 22.75
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "customer_id": 15,
+      "order_date": "2025-05-28",
+      "status": "Đang xử lý",
+      "total_amount": 134.25,
+      "shipping_address": "486 Đường Lý Thường Kiệt, Quận 10, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Đơn hàng cuối tháng 5",
+      "order_items": [
+        {
+          "book_id": 37,
+          "quantity": 1,
+          "unit_price": 23.99,
+          "subtotal": 23.99
+        },
+        {
+          "book_id": 38,
+          "quantity": 1,
+          "unit_price": 21.5,
+          "subtotal": 21.5
+        },
+        {
+          "book_id": 39,
+          "quantity": 1,
+          "unit_price": 17.25,
+          "subtotal": 17.25
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "customer_id": 17,
+      "order_date": "2025-06-05",
+      "status": "Đã giao",
+      "total_amount": 98.50,
+      "shipping_address": "951 Đường Trần Phú, Quận 5, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Đơn hàng đầu tháng 6",
+      "order_items": [
+        {
+          "book_id": 40,
+          "quantity": 1,
+          "unit_price": 18.75,
+          "subtotal": 18.75
+        },
+        {
+          "book_id": 41,
+          "quantity": 1,
+          "unit_price": 20.99,
+          "subtotal": 20.99
+        },
+        {
+          "book_id": 42,
+          "quantity": 1,
+          "unit_price": 21.25,
+          "subtotal": 21.25
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "customer_id": 19,
+      "order_date": "2025-06-12",
+      "status": "Đang xử lý",
+      "total_amount": 167.75,
+      "shipping_address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 43,
+          "quantity": 1,
+          "unit_price": 18.99,
+          "subtotal": 18.99
+        },
+        {
+          "book_id": 44,
+          "quantity": 1,
+          "unit_price": 17.75,
+          "subtotal": 17.75
+        },
+        {
+          "book_id": 45,
+          "quantity": 1,
+          "unit_price": 16.5,
+          "subtotal": 16.5
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "customer_id": 2,
+      "order_date": "2025-06-18",
+      "status": "Đã giao",
+      "total_amount": 145.99,
+      "shipping_address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 46,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        },
+        {
+          "book_id": 47,
+          "quantity": 1,
+          "unit_price": 15.99,
+          "subtotal": 15.99
+        },
+        {
+          "book_id": 48,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "customer_id": 4,
+      "order_date": "2025-06-25",
+      "status": "Đã giao",
+      "total_amount": 112.25,
+      "shipping_address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Khách hàng thân thiết",
+      "order_items": [
+        {
+          "book_id": 49,
+          "quantity": 1,
+          "unit_price": 19.75,
+          "subtotal": 19.75
+        },
+        {
+          "book_id": 50,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        },
+        {
+          "book_id": 51,
+          "quantity": 1,
+          "unit_price": 17.99,
+          "subtotal": 17.99
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "customer_id": 6,
+      "order_date": "2025-07-02",
+      "status": "Đã giao",
+      "total_amount": 78.75,
+      "shipping_address": "987 Đường Đồng Khởi, Quận 1, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Đơn hàng đầu tháng 7",
+      "order_items": [
+        {
+          "book_id": 52,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        },
+        {
+          "book_id": 53,
+          "quantity": 1,
+          "unit_price": 14.25,
+          "subtotal": 14.25
+        },
+        {
+          "book_id": 54,
+          "quantity": 1,
+          "unit_price": 123456,
+          "subtotal": 123456
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "customer_id": 8,
+      "order_date": "2025-07-08",
+      "status": "Đang xử lý",
+      "total_amount": 156.50,
+      "shipping_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 1,
+          "quantity": 1,
+          "unit_price": 25.99,
+          "subtotal": 25.99
+        },
+        {
+          "book_id": 2,
+          "quantity": 1,
+          "unit_price": 32.5,
+          "subtotal": 32.5
+        },
+        {
+          "book_id": 3,
+          "quantity": 1,
+          "unit_price": 28.75,
+          "subtotal": 28.75
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "customer_id": 10,
+      "order_date": "2025-07-15",
+      "status": "Đã giao",
+      "total_amount": 134.99,
+      "shipping_address": "741 Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 15,
+      "notes": "Khách hàng thân thiết",
+      "order_items": [
+        {
+          "book_id": 4,
+          "quantity": 1,
+          "unit_price": 24.99,
+          "subtotal": 24.99
+        },
+        {
+          "book_id": 5,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        },
+        {
+          "book_id": 6,
+          "quantity": 1,
+          "unit_price": 16.99,
+          "subtotal": 16.99
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "customer_id": 12,
+      "order_date": "2025-07-22",
+      "status": "Đã giao",
+      "total_amount": 98.25,
+      "shipping_address": "963 Đường 3/2, Quận 10, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "",
+      "order_items": [
+        {
+          "book_id": 7,
+          "quantity": 1,
+          "unit_price": 15.75,
+          "subtotal": 15.75
+        },
+        {
+          "book_id": 8,
+          "quantity": 1,
+          "unit_price": 12.99,
+          "subtotal": 12.99
+        },
+        {
+          "book_id": 9,
+          "quantity": 1,
+          "unit_price": 14.25,
+          "subtotal": 14.25
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "customer_id": 14,
+      "order_date": "2025-07-28",
+      "status": "Đang xử lý",
+      "total_amount": 167.75,
+      "shipping_address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 25,
+      "notes": "Đơn hàng cuối tháng 7",
+      "order_items": [
+        {
+          "book_id": 10,
+          "quantity": 1,
+          "unit_price": 13.5,
+          "subtotal": 13.5
+        },
+        {
+          "book_id": 11,
+          "quantity": 1,
+          "unit_price": 11.99,
+          "subtotal": 11.99
+        },
+        {
+          "book_id": 12,
+          "quantity": 1,
+          "unit_price": 19.99,
+          "subtotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "customer_id": 16,
+      "order_date": "2025-08-05",
+      "status": "Đã giao",
+      "total_amount": 145.50,
+      "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 20,
+      "notes": "Đơn hàng đầu tháng 8",
+      "order_items": [
+        {
+          "book_id": 13,
+          "quantity": 1,
+          "unit_price": 22.5,
+          "subtotal": 22.5
+        },
+        {
+          "book_id": 14,
+          "quantity": 1,
+          "unit_price": 21.99,
+          "subtotal": 21.99
+        },
+        {
+          "book_id": 15,
+          "quantity": 1,
+          "unit_price": 18.75,
+          "subtotal": 18.75
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "customer_id": 18,
+      "order_date": "2025-08-12",
+      "status": "Đang xử lý",
+      "total_amount": 112.99,
+      "shipping_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "payment_method": "Tiền mặt",
+      "shipping_fee": 5,
+      "discount": 0,
+      "notes": "Giao hàng vào buổi chiều",
+      "order_items": [
+        {
+          "book_id": 16,
+          "quantity": 1,
+          "unit_price": 24.99,
+          "subtotal": 24.99
+        },
+        {
+          "book_id": 17,
+          "quantity": 1,
+          "unit_price": 23.5,
+          "subtotal": 23.5
+        },
+        {
+          "book_id": 18,
+          "quantity": 1,
+          "unit_price": 17.99,
+          "subtotal": 17.99
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "customer_id": 20,
+      "order_date": "2025-08-18",
+      "status": "Đã giao",
+      "total_amount": 178.25,
+      "shipping_address": "462 Đường Lê Hồng Phong, Quận 6, TP.HCM",
+      "payment_method": "Thẻ tín dụng",
+      "shipping_fee": 0,
+      "discount": 25,
+      "notes": "Khách hàng VIP",
+      "order_items": [
+        {
+          "book_id": 19,
+          "quantity": 1,
+          "unit_price": 20.25,
+          "subtotal": 20.25
+        },
+        {
+          "book_id": 20,
+          "quantity": 1,
+          "unit_price": 19.5,
+          "subtotal": 19.5
+        },
+        {
+          "book_id": 21,
+          "quantity": 1,
+          "unit_price": 21.75,
+          "subtotal": 21.75
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "customer_id": 21,
+      "order_date": "2025-08-25",
+      "status": "Đã giao",
+      "total_amount": 98.75,
+      "shipping_address": "Hải Phòng",
+      "payment_method": "Chuyển khoản",
+      "shipping_fee": 0,
+      "discount": 10,
+      "notes": "Đơn hàng cuối tháng 8",
+      "order_items": [
+        {
+          "book_id": 22,
+          "quantity": 1,
+          "unit_price": 20.99,
+          "subtotal": 20.99
+        },
+        {
+          "book_id": 23,
+          "quantity": 1,
+          "unit_price": 22.25,
+          "subtotal": 22.25
+        },
+        {
+          "book_id": 24,
+          "quantity": 1,
+          "unit_price": 18.5,
+          "subtotal": 18.5
+        }
+      ]
+    }
+  ],
+  "rental_orders": [
+    {
+      "id": 1,
+      "customer_id": 5,
+      "rental_date": "2024-01-15",
+      "return_date": "2024-02-15",
+      "actual_return_date": "2024-02-14",
+      "status": "Đã trả",
+      "total_amount": 15.5,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
+      "notes": "Khách hàng trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 1,
+          "rental_days": 30,
+          "daily_rate": 0.5,
+          "subtotal": 15
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer_id": 6,
+      "rental_date": "2024-01-18",
+      "return_date": "2024-02-18",
+      "actual_return_date": "2024-02-20",
+      "status": "Đã trả",
+      "total_amount": 22.5,
+      "deposit": 50,
+      "late_fee": 1,
+      "rental_address": "987 Đường Đồng Khởi, Quận 1, TP.HCM",
+      "notes": "Trả sách muộn 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 2,
+          "rental_days": 33,
+          "daily_rate": 0.5,
+          "subtotal": 16.5
+        },
+        {
+          "book_id": 4,
+          "rental_days": 33,
+          "daily_rate": 0.4,
+          "subtotal": 13.2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customer_id": 8,
+      "rental_date": "2024-01-20",
+      "return_date": "2024-02-20",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 18.75,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "notes": "Khách hàng thân thiết",
+      "rental_items": [
+        {
+          "book_id": 5,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 6,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customer_id": 9,
+      "rental_date": "2024-01-22",
+      "return_date": "2024-02-22",
+      "actual_return_date": "2024-02-18",
+      "status": "Đã trả",
+      "total_amount": 12.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "notes": "Trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 7,
+          "rental_days": 27,
+          "daily_rate": 0.4,
+          "subtotal": 10.8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customer_id": 10,
+      "rental_date": "2024-01-25",
+      "return_date": "2024-02-25",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.5,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "741 Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 8,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 9,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customer_id": 11,
+      "rental_date": "2024-01-28",
+      "return_date": "2024-02-28",
+      "actual_return_date": "2024-03-01",
+      "status": "Đã trả",
+      "total_amount": 21.6,
+      "deposit": 50,
+      "late_fee": 1.5,
+      "rental_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "notes": "Trả sách muộn 1 ngày",
+      "rental_items": [
+        {
+          "book_id": 10,
+          "rental_days": 32,
+          "daily_rate": 0.4,
+          "subtotal": 12.8
+        },
+        {
+          "book_id": 11,
+          "rental_days": 32,
+          "daily_rate": 0.3,
+          "subtotal": 9.6
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "customer_id": 12,
+      "rental_date": "2024-02-01",
+      "return_date": "2024-03-01",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "963 Đường 3/2, Quận 10, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 12,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 13,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "customer_id": 13,
+      "rental_date": "2024-02-03",
+      "return_date": "2024-03-03",
+      "actual_return_date": "2024-02-28",
+      "status": "Đã trả",
+      "total_amount": 11.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "notes": "Trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 14,
+          "rental_days": 25,
+          "daily_rate": 0.4,
+          "subtotal": 10
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "customer_id": 14,
+      "rental_date": "2024-02-05",
+      "return_date": "2024-03-05",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 19.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 15,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 16,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "customer_id": 15,
+      "rental_date": "2024-02-08",
+      "return_date": "2024-03-08",
+      "actual_return_date": "2024-03-05",
+      "status": "Đã trả",
+      "total_amount": 13.6,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "486 Đường Lý Thường Kiệt, Quận 10, TP.HCM",
+      "notes": "Trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 17,
+          "rental_days": 26,
+          "daily_rate": 0.4,
+          "subtotal": 10.4
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "customer_id": 16,
+      "rental_date": "2024-02-12",
+      "return_date": "2024-03-12",
+      "actual_return_date": "2024-03-10",
+      "status": "Đã trả",
+      "total_amount": 18.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 18,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        },
+        {
+          "book_id": 19,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "customer_id": 17,
+      "rental_date": "2024-02-15",
+      "return_date": "2024-03-15",
+      "actual_return_date": "2024-03-18",
+      "status": "Đã trả",
+      "total_amount": 24.8,
+      "deposit": 50,
+      "late_fee": 2.4,
+      "rental_address": "951 Đường Trần Phú, Quận 5, TP.HCM",
+      "notes": "Trả sách muộn 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 20,
+          "rental_days": 32,
+          "daily_rate": 0.4,
+          "subtotal": 12.8
+        },
+        {
+          "book_id": 21,
+          "rental_days": 32,
+          "daily_rate": 0.4,
+          "subtotal": 12.8
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "customer_id": 18,
+      "rental_date": "2024-02-20",
+      "return_date": "2024-03-20",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "notes": "Khách hàng thân thiết",
+      "rental_items": [
+        {
+          "book_id": 22,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 23,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "customer_id": 19,
+      "rental_date": "2024-02-25",
+      "return_date": "2024-03-25",
+      "actual_return_date": "2024-03-22",
+      "status": "Đã trả",
+      "total_amount": 15.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
+      "notes": "Trả sách sớm 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 24,
+          "rental_days": 26,
+          "daily_rate": 0.4,
+          "subtotal": 10.4
+        },
+        {
+          "book_id": 25,
+          "rental_days": 26,
+          "daily_rate": 0.4,
+          "subtotal": 10.4
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "customer_id": 20,
+      "rental_date": "2024-03-01",
+      "return_date": "2024-04-01",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 20.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "462 Đường Lê Hồng Phong, Quận 6, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 26,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 27,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "customer_id": 21,
+      "rental_date": "2024-03-05",
+      "return_date": "2024-04-05",
+      "actual_return_date": "2024-04-03",
+      "status": "Đã trả",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "Hải Phòng",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 28,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "customer_id": 1,
+      "rental_date": "2024-03-10",
+      "return_date": "2024-04-10",
+      "actual_return_date": "2024-04-12",
+      "status": "Đã trả",
+      "total_amount": 19.6,
+      "deposit": 50,
+      "late_fee": 1.6,
+      "rental_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "notes": "Trả sách muộn 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 29,
+          "rental_days": 33,
+          "daily_rate": 0.4,
+          "subtotal": 13.2
+        },
+        {
+          "book_id": 30,
+          "rental_days": 33,
+          "daily_rate": 0.4,
+          "subtotal": 13.2
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "customer_id": 3,
+      "rental_date": "2024-03-15",
+      "return_date": "2024-04-15",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 22.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 31,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 32,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "customer_id": 4,
+      "rental_date": "2024-03-20",
+      "return_date": "2024-04-20",
+      "actual_return_date": "2024-04-18",
+      "status": "Đã trả",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 33,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        },
+        {
+          "book_id": 34,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "customer_id": 7,
+      "rental_date": "2024-03-25",
+      "return_date": "2024-04-25",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 18.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "147 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 35,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 36,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "customer_id": 5,
+      "rental_date": "2025-01-15",
+      "return_date": "2025-02-15",
+      "actual_return_date": "2025-02-14",
+      "status": "Đã trả",
+      "total_amount": 15.5,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
+      "notes": "Khách hàng trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 1,
+          "rental_days": 30,
+          "daily_rate": 0.5,
+          "subtotal": 15
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "customer_id": 6,
+      "rental_date": "2025-01-18",
+      "return_date": "2025-02-18",
+      "actual_return_date": "2025-02-20",
+      "status": "Đã trả",
+      "total_amount": 22.5,
+      "deposit": 50,
+      "late_fee": 1,
+      "rental_address": "987 Đường Đồng Khởi, Quận 1, TP.HCM",
+      "notes": "Trả sách muộn 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 2,
+          "rental_days": 33,
+          "daily_rate": 0.5,
+          "subtotal": 16.5
+        },
+        {
+          "book_id": 4,
+          "rental_days": 33,
+          "daily_rate": 0.4,
+          "subtotal": 13.2
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "customer_id": 8,
+      "rental_date": "2025-01-20",
+      "return_date": "2025-02-20",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 18.75,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "notes": "Khách hàng thân thiết",
+      "rental_items": [
+        {
+          "book_id": 5,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 6,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "customer_id": 9,
+      "rental_date": "2025-01-22",
+      "return_date": "2025-02-22",
+      "actual_return_date": "2025-02-18",
+      "status": "Đã trả",
+      "total_amount": 12.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "notes": "Trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 7,
+          "rental_days": 27,
+          "daily_rate": 0.4,
+          "subtotal": 10.8
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "customer_id": 10,
+      "rental_date": "2025-01-25",
+      "return_date": "2025-02-25",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.5,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "741 Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 8,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 9,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "customer_id": 11,
+      "rental_date": "2025-01-28",
+      "return_date": "2025-02-28",
+      "actual_return_date": "2025-03-01",
+      "status": "Đã trả",
+      "total_amount": 21.6,
+      "deposit": 50,
+      "late_fee": 1.5,
+      "rental_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "notes": "Trả sách muộn 1 ngày",
+      "rental_items": [
+        {
+          "book_id": 10,
+          "rental_days": 32,
+          "daily_rate": 0.4,
+          "subtotal": 12.8
+        },
+        {
+          "book_id": 11,
+          "rental_days": 32,
+          "daily_rate": 0.3,
+          "subtotal": 9.6
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "customer_id": 12,
+      "rental_date": "2025-02-01",
+      "return_date": "2025-03-01",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "963 Đường 3/2, Quận 10, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 12,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 13,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "customer_id": 13,
+      "rental_date": "2025-02-03",
+      "return_date": "2025-03-03",
+      "actual_return_date": "2025-02-28",
+      "status": "Đã trả",
+      "total_amount": 11.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "notes": "Trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 14,
+          "rental_days": 25,
+          "daily_rate": 0.4,
+          "subtotal": 10
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "customer_id": 14,
+      "rental_date": "2025-02-05",
+      "return_date": "2025-03-05",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 19.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 15,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        },
+        {
+          "book_id": 16,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "customer_id": 15,
+      "rental_date": "2025-02-08",
+      "return_date": "2025-03-08",
+      "actual_return_date": "2025-03-05",
+      "status": "Đã trả",
+      "total_amount": 13.6,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "486 Đường Lý Thường Kiệt, Quận 10, TP.HCM",
+      "notes": "Trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 17,
+          "rental_days": 26,
+          "daily_rate": 0.4,
+          "subtotal": 10.4
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "customer_id": 1,
+      "rental_date": "2025-01-03",
+      "return_date": "2025-02-03",
+      "actual_return_date": "2025-02-01",
+      "status": "Đã trả",
+      "total_amount": 12.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 1,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "customer_id": 3,
+      "rental_date": "2025-01-05",
+      "return_date": "2025-02-05",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 18.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
+      "notes": "Khách hàng thân thiết",
+      "rental_items": [
+        {
+          "book_id": 2,
+          "rental_days": 30,
+          "daily_rate": 0.5,
+          "subtotal": 15.0
+        },
+        {
+          "book_id": 4,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "customer_id": 5,
+      "rental_date": "2025-01-07",
+      "return_date": "2025-02-07",
+      "actual_return_date": "2025-02-05",
+      "status": "Đã trả",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
+      "notes": "Trả sách sớm",
+      "rental_items": [
+        {
+          "book_id": 5,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        },
+        {
+          "book_id": 6,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "customer_id": 6,
+      "rental_date": "2025-01-10",
+      "return_date": "2025-02-10",
+      "actual_return_date": "2025-02-12",
+      "status": "Đã trả",
+      "total_amount": 20.8,
+      "deposit": 50,
+      "late_fee": 1.6,
+      "rental_address": "987 Đường Đồng Khởi, Quận 1, TP.HCM",
+      "notes": "Trả sách muộn 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 7,
+          "rental_days": 33,
+          "daily_rate": 0.4,
+          "subtotal": 13.2
+        },
+        {
+          "book_id": 8,
+          "rental_days": 33,
+          "daily_rate": 0.4,
+          "subtotal": 13.2
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "customer_id": 9,
+      "rental_date": "2025-01-12",
+      "return_date": "2025-02-12",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 9,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 10,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "customer_id": 10,
+      "rental_date": "2025-01-14",
+      "return_date": "2025-02-14",
+      "actual_return_date": "2025-02-10",
+      "status": "Đã trả",
+      "total_amount": 11.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "741 Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM",
+      "notes": "Trả sách sớm 4 ngày",
+      "rental_items": [
+        {
+          "book_id": 11,
+          "rental_days": 27,
+          "daily_rate": 0.3,
+          "subtotal": 8.1
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "customer_id": 12,
+      "rental_date": "2025-01-16",
+      "return_date": "2025-02-16",
+      "actual_return_date": "2025-02-18",
+      "status": "Đã trả",
+      "total_amount": 17.6,
+      "deposit": 50,
+      "late_fee": 1.6,
+      "rental_address": "963 Đường 3/2, Quận 10, TP.HCM",
+      "notes": "Trả sách muộn 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 12,
+          "rental_days": 33,
+          "daily_rate": 0.4,
+          "subtotal": 13.2
+        },
+        {
+          "book_id": 13,
+          "rental_days": 33,
+          "daily_rate": 0.4,
+          "subtotal": 13.2
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "customer_id": 15,
+      "rental_date": "2025-01-19",
+      "return_date": "2025-02-19",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "486 Đường Lý Thường Kiệt, Quận 10, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 14,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 15,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "customer_id": 16,
+      "rental_date": "2025-01-21",
+      "return_date": "2025-02-21",
+      "actual_return_date": "2025-02-19",
+      "status": "Đã trả",
+      "total_amount": 13.6,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 16,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "customer_id": 17,
+      "rental_date": "2025-01-24",
+      "return_date": "2025-02-24",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 19.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "951 Đường Trần Phú, Quận 5, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 17,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 18,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "customer_id": 2,
+      "rental_date": "2025-02-03",
+      "return_date": "2025-03-03",
+      "actual_return_date": "2025-03-01",
+      "status": "Đã trả",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 19,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "customer_id": 4,
+      "rental_date": "2025-02-07",
+      "return_date": "2025-03-07",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 18.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 20,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 21,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "customer_id": 7,
+      "rental_date": "2025-02-12",
+      "return_date": "2025-03-12",
+      "actual_return_date": "2025-03-10",
+      "status": "Đã trả",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "147 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 22,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        },
+        {
+          "book_id": 23,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "customer_id": 8,
+      "rental_date": "2025-02-18",
+      "return_date": "2025-03-18",
+      "actual_return_date": "2025-03-20",
+      "status": "Đã trả",
+      "total_amount": 22.4,
+      "deposit": 50,
+      "late_fee": 1.6,
+      "rental_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "notes": "Trả sách muộn 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 24,
+          "rental_days": 32,
+          "daily_rate": 0.4,
+          "subtotal": 12.8
+        },
+        {
+          "book_id": 25,
+          "rental_days": 32,
+          "daily_rate": 0.4,
+          "subtotal": 12.8
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "customer_id": 11,
+      "rental_date": "2025-02-25",
+      "return_date": "2025-03-25",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 26,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 27,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "customer_id": 13,
+      "rental_date": "2025-03-05",
+      "return_date": "2025-04-05",
+      "actual_return_date": "2025-04-03",
+      "status": "Đã trả",
+      "total_amount": 15.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 28,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "customer_id": 14,
+      "rental_date": "2025-03-10",
+      "return_date": "2025-04-10",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 19.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 29,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 30,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "customer_id": 16,
+      "rental_date": "2025-03-15",
+      "return_date": "2025-04-15",
+      "actual_return_date": "2025-04-12",
+      "status": "Đã trả",
+      "total_amount": 13.6,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "notes": "Trả sách sớm 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 31,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "customer_id": 18,
+      "rental_date": "2025-03-22",
+      "return_date": "2025-04-22",
+      "actual_return_date": "2025-04-25",
+      "status": "Đã trả",
+      "total_amount": 24.8,
+      "deposit": 50,
+      "late_fee": 2.4,
+      "rental_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "notes": "Trả sách muộn 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 32,
+          "rental_days": 34,
+          "daily_rate": 0.4,
+          "subtotal": 13.6
+        },
+        {
+          "book_id": 33,
+          "rental_days": 34,
+          "daily_rate": 0.4,
+          "subtotal": 13.6
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "customer_id": 19,
+      "rental_date": "2025-03-28",
+      "return_date": "2025-04-28",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 34,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 35,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "customer_id": 20,
+      "rental_date": "2025-04-02",
+      "return_date": "2025-05-02",
+      "actual_return_date": "2025-04-30",
+      "status": "Đã trả",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "462 Đường Lê Hồng Phong, Quận 6, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 36,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "customer_id": 21,
+      "rental_date": "2025-04-08",
+      "return_date": "2025-05-08",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 18.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "Hải Phòng",
+      "notes": "Khách hàng mới",
+      "rental_items": [
+        {
+          "book_id": 37,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 38,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "customer_id": 1,
+      "rental_date": "2025-04-12",
+      "return_date": "2025-05-12",
+      "actual_return_date": "2025-05-10",
+      "status": "Đã trả",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 39,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "customer_id": 3,
+      "rental_date": "2025-04-18",
+      "return_date": "2025-05-18",
+      "actual_return_date": "2025-05-20",
+      "status": "Đã trả",
+      "total_amount": 22.4,
+      "deposit": 50,
+      "late_fee": 1.6,
+      "rental_address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
+      "notes": "Trả sách muộn 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 40,
+          "rental_days": 32,
+          "daily_rate": 0.4,
+          "subtotal": 12.8
+        },
+        {
+          "book_id": 41,
+          "rental_days": 32,
+          "daily_rate": 0.4,
+          "subtotal": 12.8
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "customer_id": 5,
+      "rental_date": "2025-04-25",
+      "return_date": "2025-05-25",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 42,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 43,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "customer_id": 7,
+      "rental_date": "2025-05-03",
+      "return_date": "2025-06-03",
+      "actual_return_date": "2025-06-01",
+      "status": "Đã trả",
+      "total_amount": 15.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "147 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 44,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "customer_id": 9,
+      "rental_date": "2025-05-08",
+      "return_date": "2025-06-08",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 19.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 45,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 46,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "customer_id": 11,
+      "rental_date": "2025-05-15",
+      "return_date": "2025-06-15",
+      "actual_return_date": "2025-06-12",
+      "status": "Đã trả",
+      "total_amount": 13.6,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
+      "notes": "Trả sách sớm 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 47,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "customer_id": 13,
+      "rental_date": "2025-05-22",
+      "return_date": "2025-06-22",
+      "actual_return_date": "2025-06-25",
+      "status": "Đã trả",
+      "total_amount": 24.8,
+      "deposit": 50,
+      "late_fee": 2.4,
+      "rental_address": "159 Đường Sư Vạn Hạnh, Quận 10, TP.HCM",
+      "notes": "Trả sách muộn 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 48,
+          "rental_days": 34,
+          "daily_rate": 0.4,
+          "subtotal": 13.6
+        },
+        {
+          "book_id": 49,
+          "rental_days": 34,
+          "daily_rate": 0.4,
+          "subtotal": 13.6
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "customer_id": 15,
+      "rental_date": "2025-05-28",
+      "return_date": "2025-06-28",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "486 Đường Lý Thường Kiệt, Quận 10, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 50,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 51,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "customer_id": 17,
+      "rental_date": "2025-06-05",
+      "return_date": "2025-07-05",
+      "actual_return_date": "2025-07-03",
+      "status": "Đã trả",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "951 Đường Trần Phú, Quận 5, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 52,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "customer_id": 19,
+      "rental_date": "2025-06-12",
+      "return_date": "2025-07-12",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 18.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 53,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 54,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "customer_id": 2,
+      "rental_date": "2025-06-18",
+      "return_date": "2025-07-18",
+      "actual_return_date": "2025-07-15",
+      "status": "Đã trả",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
+      "notes": "Trả sách sớm 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 1,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "customer_id": 4,
+      "rental_date": "2025-06-25",
+      "return_date": "2025-07-25",
+      "actual_return_date": "2025-07-28",
+      "status": "Đã trả",
+      "total_amount": 24.8,
+      "deposit": 50,
+      "late_fee": 2.4,
+      "rental_address": "321 Đường Pasteur, Quận 1, TP.HCM",
+      "notes": "Trả sách muộn 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 2,
+          "rental_days": 34,
+          "daily_rate": 0.4,
+          "subtotal": 13.6
+        },
+        {
+          "book_id": 3,
+          "rental_days": 34,
+          "daily_rate": 0.4,
+          "subtotal": 13.6
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "customer_id": 6,
+      "rental_date": "2025-07-02",
+      "return_date": "2025-08-02",
+      "actual_return_date": "2025-07-31",
+      "status": "Đã trả",
+      "total_amount": 15.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "987 Đường Đồng Khởi, Quận 1, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 4,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "customer_id": 8,
+      "rental_date": "2025-07-08",
+      "return_date": "2025-08-08",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 19.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 5,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 6,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "customer_id": 10,
+      "rental_date": "2025-07-15",
+      "return_date": "2025-08-15",
+      "actual_return_date": "2025-08-12",
+      "status": "Đã trả",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "741 Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM",
+      "notes": "Trả sách sớm 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 7,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "customer_id": 12,
+      "rental_date": "2025-07-22",
+      "return_date": "2025-08-22",
+      "actual_return_date": "2025-08-25",
+      "status": "Đã trả",
+      "total_amount": 24.8,
+      "deposit": 50,
+      "late_fee": 2.4,
+      "rental_address": "963 Đường 3/2, Quận 10, TP.HCM",
+      "notes": "Trả sách muộn 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 8,
+          "rental_days": 34,
+          "daily_rate": 0.4,
+          "subtotal": 13.6
+        },
+        {
+          "book_id": 9,
+          "rental_days": 34,
+          "daily_rate": 0.4,
+          "subtotal": 13.6
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "customer_id": 14,
+      "rental_date": "2025-07-28",
+      "return_date": "2025-08-28",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "357 Đường Nguyễn Tri Phương, Quận 10, TP.HCM",
+      "notes": "",
+      "rental_items": [
+        {
+          "book_id": 10,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 11,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "customer_id": 16,
+      "rental_date": "2025-08-05",
+      "return_date": "2025-09-05",
+      "actual_return_date": "2025-09-03",
+      "status": "Đã trả",
+      "total_amount": 14.4,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
+      "notes": "Trả sách sớm 2 ngày",
+      "rental_items": [
+        {
+          "book_id": 12,
+          "rental_days": 29,
+          "daily_rate": 0.4,
+          "subtotal": 11.6
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "customer_id": 18,
+      "rental_date": "2025-08-12",
+      "return_date": "2025-09-12",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 18.0,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "notes": "Khách hàng VIP",
+      "rental_items": [
+        {
+          "book_id": 13,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 14,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "customer_id": 20,
+      "rental_date": "2025-08-18",
+      "return_date": "2025-09-18",
+      "actual_return_date": "2025-09-15",
+      "status": "Đã trả",
+      "total_amount": 16.8,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "462 Đường Lê Hồng Phong, Quận 6, TP.HCM",
+      "notes": "Trả sách sớm 3 ngày",
+      "rental_items": [
+        {
+          "book_id": 15,
+          "rental_days": 28,
+          "daily_rate": 0.4,
+          "subtotal": 11.2
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "customer_id": 21,
+      "rental_date": "2025-08-25",
+      "return_date": "2025-09-25",
+      "actual_return_date": null,
+      "status": "Đang mượn",
+      "total_amount": 19.2,
+      "deposit": 50,
+      "late_fee": 0,
+      "rental_address": "Hải Phòng",
+      "notes": "Khách hàng mới",
+      "rental_items": [
+        {
+          "book_id": 16,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        },
+        {
+          "book_id": 17,
+          "rental_days": 30,
+          "daily_rate": 0.4,
+          "subtotal": 12.0
+        }
+      ]
+    }
+  ]
+}
