@@ -11,6 +11,8 @@ import {
     Box,
     IconButton,
     Paper,
+    Snackbar,
+    Alert,
 } from '@mui/material';
 import {
     Book as BookIcon,
@@ -21,38 +23,20 @@ import {
     Support as SupportIcon,
     ArrowForward as ArrowForwardIcon,
 } from '@mui/icons-material';
+import { useCart } from '../context/CartContext';
+import type { Book, Author, Category } from '../types';
 
-interface Book {
-    id: number;
-    title: string;
-    author_id: number;
-    category_ids: number[];
-    published_date: string;
-    price: number;
-    stock: number;
-    likes: number;
-    cover_image?: string;
-}
 
-interface Author {
-    id: number;
-    name: string;
-    nationality: string;
-    profile_image?: string;
-}
-
-interface Category {
-    id: number;
-    name: string;
-    description: string;
-}
 
 const Home = () => {
     const [books, setBooks] = useState<Book[]>([]);
     const [authors, setAuthors] = useState<Author[]>([]);
     const [categories, setCategories] = useState<Category[]>([]);
     const [loading, setLoading] = useState(true);
+    const [snackbarOpen, setSnackbarOpen] = useState(false);
+    const [snackbarMessage, setSnackbarMessage] = useState('');
     const navigate = useNavigate();
+    const { addToCart } = useCart();
 
     useEffect(() => {
         const fetchData = async () => {
@@ -106,6 +90,19 @@ const Home = () => {
     const handleBookClick = (bookId: number) => {
         navigate(`/books/${bookId}`);
         window.scrollTo(0, 0);
+    };
+
+    const handleAddToCart = (event: React.MouseEvent, book: Book) => {
+        event.stopPropagation(); // Prevent navigation to book detail
+        if (book.stock > 0) {
+            addToCart(book);
+            setSnackbarMessage(`Đã thêm "${book.title}" vào giỏ hàng!`);
+            setSnackbarOpen(true);
+        }
+    };
+
+    const handleCloseSnackbar = () => {
+        setSnackbarOpen(false);
     };
 
     return (
@@ -290,10 +287,17 @@ const Home = () => {
                                                 }}>
                                                     <FavoriteIcon />
                                                 </IconButton>
-                                                <IconButton size="small" sx={{
-                                                    color: '#9ca3af',
-                                                    '&:hover': { color: '#2563eb' }
-                                                }}>
+                                                <IconButton 
+                                                    size="small" 
+                                                    onClick={(e) => handleAddToCart(e, book)}
+                                                    disabled={book.stock === 0}
+                                                    sx={{
+                                                        color: book.stock > 0 ? '#9ca3af' : '#d1d5db',
+                                                        '&:hover': { 
+                                                            color: book.stock > 0 ? '#2563eb' : '#d1d5db'
+                                                        }
+                                                    }}
+                                                >
                                                     <CartIcon />
                                                 </IconButton>
                                             </Box>
@@ -455,6 +459,18 @@ const Home = () => {
                     </Grid>
                 </Box>
             </Container>
+
+            {/* Snackbar for cart notifications */}
+            <Snackbar
+                open={snackbarOpen}
+                autoHideDuration={3000}
+                onClose={handleCloseSnackbar}
+                anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+            >
+                <Alert onClose={handleCloseSnackbar} severity="success" sx={{ width: '100%' }}>
+                    {snackbarMessage}
+                </Alert>
+            </Snackbar>
         </Box>
     );
 };

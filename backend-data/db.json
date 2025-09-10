@@ -11,7 +11,7 @@
       ],
       "published_date": "1997-06-26",
       "price": 25.99,
-      "stock": 150,
+      "stock": 147,
       "likes": 245,
       "cover_image": "https://i.pinimg.com/236x/19/f8/42/19f8422787afce5d3c65dbbc17d2e569.jpg"
     },
@@ -26,7 +26,7 @@
       ],
       "published_date": "1954-07-29",
       "price": 32.5,
-      "stock": 100,
+      "stock": 96,
       "likes": 189,
       "cover_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop"
     },
@@ -41,7 +41,7 @@
       ],
       "published_date": "1965-08-01",
       "price": 28.75,
-      "stock": 80,
+      "stock": 77,
       "likes": 156,
       "cover_image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop"
     },
@@ -1806,7 +1806,7 @@
       "customer_id": 16,
       "order_date": "2024-03-15",
       "status": "Đã giao",
-      "total_amount": 45.50,
+      "total_amount": 45.5,
       "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -1864,7 +1864,7 @@
       "customer_id": 18,
       "order_date": "2024-04-05",
       "status": "Đang xử lý",
-      "total_amount": 112.50,
+      "total_amount": 112.5,
       "shipping_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
       "payment_method": "Thẻ tín dụng",
       "shipping_fee": 0,
@@ -1960,7 +1960,7 @@
       "customer_id": 21,
       "order_date": "2024-05-02",
       "status": "Đang xử lý",
-      "total_amount": 234.50,
+      "total_amount": 234.5,
       "shipping_address": "Hải Phòng",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -2056,7 +2056,7 @@
       "customer_id": 4,
       "order_date": "2024-06-01",
       "status": "Đang xử lý",
-      "total_amount": 178.50,
+      "total_amount": 178.5,
       "shipping_address": "321 Đường Pasteur, Quận 1, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -2120,7 +2120,7 @@
       "customer_id": 2,
       "order_date": "2025-01-15",
       "status": "Đã giao",
-      "total_amount": 67.50,
+      "total_amount": 67.5,
       "shipping_address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -2306,7 +2306,7 @@
       "customer_id": 16,
       "order_date": "2025-01-30",
       "status": "Đã giao",
-      "total_amount": 45.50,
+      "total_amount": 45.5,
       "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -2364,7 +2364,7 @@
       "customer_id": 18,
       "order_date": "2025-02-05",
       "status": "Đã giao",
-      "total_amount": 112.50,
+      "total_amount": 112.5,
       "shipping_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
       "payment_method": "Thẻ tín dụng",
       "shipping_fee": 0,
@@ -2428,7 +2428,7 @@
       "customer_id": 1,
       "order_date": "2025-01-03",
       "status": "Đã giao",
-      "total_amount": 78.50,
+      "total_amount": 78.5,
       "shipping_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
       "payment_method": "Tiền mặt",
       "shipping_fee": 5,
@@ -2518,7 +2518,7 @@
       "customer_id": 6,
       "order_date": "2025-01-10",
       "status": "Đã giao",
-      "total_amount": 167.50,
+      "total_amount": 167.5,
       "shipping_address": "987 Đường Đồng Khởi, Quận 1, TP.HCM",
       "payment_method": "Thẻ tín dụng",
       "shipping_fee": 0,
@@ -2614,7 +2614,7 @@
       "customer_id": 12,
       "order_date": "2025-01-16",
       "status": "Đã giao",
-      "total_amount": 67.50,
+      "total_amount": 67.5,
       "shipping_address": "963 Đường 3/2, Quận 10, TP.HCM",
       "payment_method": "Tiền mặt",
       "shipping_fee": 5,
@@ -2736,7 +2736,7 @@
       "customer_id": 2,
       "order_date": "2025-02-03",
       "status": "Đã giao",
-      "total_amount": 89.50,
+      "total_amount": 89.5,
       "shipping_address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -2826,7 +2826,7 @@
       "customer_id": 8,
       "order_date": "2025-02-18",
       "status": "Đã giao",
-      "total_amount": 98.50,
+      "total_amount": 98.5,
       "shipping_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -2954,7 +2954,7 @@
       "customer_id": 16,
       "order_date": "2025-03-15",
       "status": "Đang xử lý",
-      "total_amount": 112.50,
+      "total_amount": 112.5,
       "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
       "payment_method": "Thẻ tín dụng",
       "shipping_fee": 0,
@@ -3082,7 +3082,7 @@
       "customer_id": 21,
       "order_date": "2025-04-08",
       "status": "Đang xử lý",
-      "total_amount": 134.50,
+      "total_amount": 134.5,
       "shipping_address": "Hải Phòng",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -3178,7 +3178,7 @@
       "customer_id": 5,
       "order_date": "2025-04-25",
       "status": "Đang xử lý",
-      "total_amount": 78.50,
+      "total_amount": 78.5,
       "shipping_address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -3274,7 +3274,7 @@
       "customer_id": 11,
       "order_date": "2025-05-15",
       "status": "Đã giao",
-      "total_amount": 178.50,
+      "total_amount": 178.5,
       "shipping_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -3370,7 +3370,7 @@
       "customer_id": 17,
       "order_date": "2025-06-05",
       "status": "Đã giao",
-      "total_amount": 98.50,
+      "total_amount": 98.5,
       "shipping_address": "951 Đường Trần Phú, Quận 5, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -3530,7 +3530,7 @@
       "customer_id": 8,
       "order_date": "2025-07-08",
       "status": "Đang xử lý",
-      "total_amount": 156.50,
+      "total_amount": 156.5,
       "shipping_address": "258 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
       "payment_method": "Thẻ tín dụng",
       "shipping_fee": 0,
@@ -3658,7 +3658,7 @@
       "customer_id": 16,
       "order_date": "2025-08-05",
       "status": "Đã giao",
-      "total_amount": 145.50,
+      "total_amount": 145.5,
       "shipping_address": "753 Đường Nguyễn Chí Thanh, Quận 5, TP.HCM",
       "payment_method": "Chuyển khoản",
       "shipping_fee": 0,
@@ -4546,7 +4546,7 @@
       "return_date": "2025-02-03",
       "actual_return_date": "2025-02-01",
       "status": "Đã trả",
-      "total_amount": 12.0,
+      "total_amount": 12,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
@@ -4567,7 +4567,7 @@
       "return_date": "2025-02-05",
       "actual_return_date": null,
       "status": "Đang mượn",
-      "total_amount": 18.0,
+      "total_amount": 18,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "789 Đường Võ Văn Tần, Quận 3, TP.HCM",
@@ -4577,13 +4577,13 @@
           "book_id": 2,
           "rental_days": 30,
           "daily_rate": 0.5,
-          "subtotal": 15.0
+          "subtotal": 15
         },
         {
           "book_id": 4,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -4648,7 +4648,7 @@
       "return_date": "2025-02-12",
       "actual_return_date": null,
       "status": "Đang mượn",
-      "total_amount": 16.0,
+      "total_amount": 16,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "369 Đường Lý Tự Trọng, Quận 1, TP.HCM",
@@ -4658,13 +4658,13 @@
           "book_id": 9,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 10,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -4733,13 +4733,13 @@
           "book_id": 14,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 15,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -4781,13 +4781,13 @@
           "book_id": 17,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 18,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -4819,7 +4819,7 @@
       "return_date": "2025-03-07",
       "actual_return_date": null,
       "status": "Đang mượn",
-      "total_amount": 18.0,
+      "total_amount": 18,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "321 Đường Pasteur, Quận 1, TP.HCM",
@@ -4829,13 +4829,13 @@
           "book_id": 20,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 21,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -4900,7 +4900,7 @@
       "return_date": "2025-03-25",
       "actual_return_date": null,
       "status": "Đang mượn",
-      "total_amount": 16.0,
+      "total_amount": 16,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "852 Đường Cách Mạng Tháng 8, Quận 10, TP.HCM",
@@ -4910,13 +4910,13 @@
           "book_id": 26,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 27,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -4958,13 +4958,13 @@
           "book_id": 29,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 30,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5033,13 +5033,13 @@
           "book_id": 34,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 35,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5071,7 +5071,7 @@
       "return_date": "2025-05-08",
       "actual_return_date": null,
       "status": "Đang mượn",
-      "total_amount": 18.0,
+      "total_amount": 18,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "Hải Phòng",
@@ -5081,13 +5081,13 @@
           "book_id": 37,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 38,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5146,7 +5146,7 @@
       "return_date": "2025-05-25",
       "actual_return_date": null,
       "status": "Đang mượn",
-      "total_amount": 16.0,
+      "total_amount": 16,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "654 Đường Hai Bà Trưng, Quận 1, TP.HCM",
@@ -5156,13 +5156,13 @@
           "book_id": 42,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 43,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5204,13 +5204,13 @@
           "book_id": 45,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 46,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5279,13 +5279,13 @@
           "book_id": 50,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 51,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5317,7 +5317,7 @@
       "return_date": "2025-07-12",
       "actual_return_date": null,
       "status": "Đang mượn",
-      "total_amount": 18.0,
+      "total_amount": 18,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "837 Đường Hồng Bàng, Quận 6, TP.HCM",
@@ -5327,13 +5327,13 @@
           "book_id": 53,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 54,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5423,13 +5423,13 @@
           "book_id": 5,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 6,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5498,13 +5498,13 @@
           "book_id": 10,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 11,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5536,7 +5536,7 @@
       "return_date": "2025-09-12",
       "actual_return_date": null,
       "status": "Đang mượn",
-      "total_amount": 18.0,
+      "total_amount": 18,
       "deposit": 50,
       "late_fee": 0,
       "rental_address": "264 Đường Nguyễn Văn Cừ, Quận 5, TP.HCM",
@@ -5546,13 +5546,13 @@
           "book_id": 13,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 14,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     },
@@ -5594,13 +5594,13 @@
           "book_id": 16,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         },
         {
           "book_id": 17,
           "rental_days": 30,
           "daily_rate": 0.4,
-          "subtotal": 12.0
+          "subtotal": 12
         }
       ]
     }

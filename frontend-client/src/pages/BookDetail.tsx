@@ -1,41 +1,24 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { Box, Container, Grid, Typography, Card, CardMedia, CardContent, Button, Chip, Breadcrumbs, Link as MuiLink } from '@mui/material'
-import { Favorite as FavoriteIcon } from '@mui/icons-material'
+import { Box, Container, Grid, Typography, Card, CardMedia, CardContent, Button, Chip, Breadcrumbs, Link as MuiLink, Snackbar, Alert, TextField, IconButton } from '@mui/material'
+import { Favorite as FavoriteIcon, Add as AddIcon, Remove as RemoveIcon, ShoppingCart as CartIcon } from '@mui/icons-material'
+import { useCart } from '../context/CartContext'
+import type { Book, Author, Category } from '../types'
 
-interface Book {
-    id: number
-    title: string
-    author_id: number
-    category_ids: number[]
-    published_date: string
-    price: number
-    stock: number
-    likes: number
-    cover_image?: string
-    description?: string
-}
 
-interface Author {
-    id: number
-    name: string
-    nationality: string
-    profile_image?: string
-}
-
-interface Category {
-    id: number
-    name: string
-}
 
 const BookDetail = () => {
     const { id } = useParams()
     const navigate = useNavigate()
+    const { addToCart } = useCart()
     const [book, setBook] = useState<Book | null>(null)
     const [author, setAuthor] = useState<Author | null>(null)
     const [categories, setCategories] = useState<Category[]>([])
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState<string | null>(null)
+    const [quantity, setQuantity] = useState(1)
+    const [snackbarOpen, setSnackbarOpen] = useState(false)
+    const [snackbarMessage, setSnackbarMessage] = useState('')
 
     useEffect(() => {
         const fetchData = async () => {
@@ -76,6 +59,31 @@ const BookDetail = () => {
         return book.category_ids.map(cid => (
             <Chip key={cid} label={map.get(cid) || `Thể loại ${cid}`} sx={{ mr: 1, mb: 1 }} />
         ))
+    }
+
+    const handleQuantityChange = (newQuantity: number) => {
+        if (book && newQuantity > 0 && newQuantity <= book.stock) {
+            setQuantity(newQuantity)
+        }
+    }
+
+    const handleAddToCart = () => {
+        if (book && book.stock > 0) {
+            addToCart(book, quantity)
+            setSnackbarMessage(`Đã thêm ${quantity} cuốn "${book.title}" vào giỏ hàng!`)
+            setSnackbarOpen(true)
+        }
+    }
+
+    const handleBuyNow = () => {
+        if (book && book.stock > 0) {
+            addToCart(book, quantity)
+            navigate('/cart')
+        }
+    }
+
+    const handleCloseSnackbar = () => {
+        setSnackbarOpen(false)
     }
 
     if (loading) {
@@ -137,11 +145,78 @@ const BookDetail = () => {
                                 <Typography variant="body1" sx={{ mb: 3, color: '#374151' }}>
                                     {book.description || 'Chưa có mô tả cho cuốn sách này.'}
                                 </Typography>
-                                <Box sx={{ display: 'flex', gap: 2 }}>
-                                    <Button variant="contained" color="primary">Thêm vào giỏ</Button>
-                                    <Button variant="outlined" color="primary">Mua ngay</Button>
+                                
+                                {/* Quantity Selector */}
+                                {book.stock > 0 && (
+                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 3 }}>
+                                        <Typography variant="body1" sx={{ fontWeight: 500 }}>
+                                            Số lượng:
+                                        </Typography>
+                                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                                            <IconButton
+                                                size="small"
+                                                onClick={() => handleQuantityChange(quantity - 1)}
+                                                disabled={quantity <= 1}
+                                                sx={{
+                                                    border: '1px solid #e5e7eb',
+                                                    borderRadius: 1
+                                                }}
+                                            >
+                                                <RemoveIcon />
+                                            </IconButton>
+                                            <TextField
+                                                type="number"
+                                                value={quantity}
+                                                onChange={(e) => handleQuantityChange(parseInt(e.target.value) || 1)}
+                                                inputProps={{
+                                                    min: 1,
+                                                    max: book.stock,
+                                                    style: { textAlign: 'center' }
+                                                }}
+                                                sx={{
+                                                    width: '80px',
+                                                    '& .MuiOutlinedInput-root': {
+                                                        height: '40px'
+                                                    }
+                                                }}
+                                            />
+                                            <IconButton
+                                                size="small"
+                                                onClick={() => handleQuantityChange(quantity + 1)}
+                                                disabled={quantity >= book.stock}
+                                                sx={{
+                                                    border: '1px solid #e5e7eb',
+                                                    borderRadius: 1
+                                                }}
+                                            >
+                                                <AddIcon />
+                                            </IconButton>
+                                        </Box>
+                                    </Box>
+                                )}
+
+                                <Box sx={{ display: 'flex', gap: 2, mb: 2 }}>
+                                    <Button 
+                                        variant="contained" 
+                                        color="primary"
+                                        startIcon={<CartIcon />}
+                                        onClick={handleAddToCart}
+                                        disabled={book.stock === 0}
+                                        sx={{ flex: 1 }}
+                                    >
+                                        Thêm vào giỏ
+                                    </Button>
+                                    <Button 
+                                        variant="outlined" 
+                                        color="primary"
+                                        onClick={handleBuyNow}
+                                        disabled={book.stock === 0}
+                                        sx={{ flex: 1 }}
+                                    >
+                                        Mua ngay
+                                    </Button>
                                 </Box>
-                                <Typography variant="caption" sx={{ display: 'block', mt: 2, color: book.stock > 0 ? '#059669' : '#ef4444' }}>
+                                <Typography variant="caption" sx={{ display: 'block', color: book.stock > 0 ? '#059669' : '#ef4444' }}>
                                     {book.stock > 0 ? `Còn hàng (${book.stock})` : 'Hết hàng'}
                                 </Typography>
                             </CardContent>
@@ -149,6 +224,18 @@ const BookDetail = () => {
                     </Grid>
                 </Grid>
             </Container>
+
+            {/* Snackbar for cart notifications */}
+            <Snackbar
+                open={snackbarOpen}
+                autoHideDuration={3000}
+                onClose={handleCloseSnackbar}
+                anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+            >
+                <Alert onClose={handleCloseSnackbar} severity="success" sx={{ width: '100%' }}>
+                    {snackbarMessage}
+                </Alert>
+            </Snackbar>
         </Box>
     )
 }

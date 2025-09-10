@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   AppBar,
   Toolbar,
@@ -21,8 +22,11 @@ import {
   Category as CategoryIcon,
   AccountCircle as AccountIcon
 } from '@mui/icons-material';
+import { useCart } from '../context/CartContext';
 
 const Header = () => {
+  const navigate = useNavigate();
+  const { getTotalItems } = useCart();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [categoryAnchorEl, setCategoryAnchorEl] = useState<null | HTMLElement>(null);
   const [searchQuery, setSearchQuery] = useState('');
@@ -70,7 +74,7 @@ const Header = () => {
     >
       <Toolbar sx={{ px: 4, py: 2 }}>
         {/* Logo */}
-        <Box sx={{ display: 'flex', alignItems: 'center', mr: 8 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', mr: 8, cursor: 'pointer' }} onClick={() => navigate('/')}>
           <BookIcon sx={{ color: 'white', fontSize: 32, mr: 1 }} />
           <Typography 
             variant="h6" 
@@ -161,8 +165,8 @@ const Header = () => {
         </Box>
 
         {/* Cart */}
-        <IconButton sx={{ color: 'white', mr: 2 }}>
-          <Badge badgeContent={0} color="error">
+        <IconButton sx={{ color: 'white', mr: 2 }} onClick={() => navigate('/cart')}>
+          <Badge badgeContent={getTotalItems()} color="error">
             <CartIcon />
           </Badge>
         </IconButton>
